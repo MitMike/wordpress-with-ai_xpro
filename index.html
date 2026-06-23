@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Flash Cars buys and sells new and used supercars including Ferrari, Lamborghini, McLaren, Porsche, Aston Martin, and Bentley models.">
+  <meta name="keywords" content="Supercars, ferrari, lamborghini, supercar dealer, sell supercar, used supercars">
+  <meta name="author" content="Flash Cars">
+  <meta property="og:title" content="Flash Cars | Buy and Sell Supercars">
+  <meta property="og:description" content="A premium destination for supercar buyers and sellers.">
+  <meta property="og:type" content="website">
+  <title>Flash Cars | Buy and Sell Supercars</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --rosso: #da291c;
+      --rosso-dark: #a91e13;
+      --ink: #fffffb;
+      --body: #b4b0ab;
+      --muted: #85817b;
+      --canvas: #181818;
+      --elevated: #303030;
+      --deep: #10100f;
+      --light: #fffffb;
+      --soft: #f4f1ec;
+      --line: #333331;
+      --line-light: #d9d5ce;
+      --text-light: #181818;
+      --success: #03904a;
+      --warning: #f13a2c;
+      --container: 1280px;
+      --ease: cubic-bezier(.16, 1, .3, 1);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Manrope, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--canvas);
+      line-height: 1.5;
+    }
+
+    img { display: block; width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    button, input, select, textarea { font: inherit; }
+    button { cursor: pointer; }
+
+    .skip-link {
+      position: fixed;
+      top: 8px;
+      left: 8px;
+      z-index: 1000;
+      transform: translateY(-150%);
+      background: var(--rosso);
+      color: var(--ink);
+      padding: 12px 18px;
+    }
+    .skip-link:focus { transform: translateY(0); }
+
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      min-height: 72px;
+      border-bottom: 1px solid rgba(255, 255, 251, .09);
+      background: rgba(24, 24, 24, .94);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav-shell {
+      max-width: var(--container);
+      margin: 0 auto;
+      padding: 0 clamp(16px, 4vw, 48px);
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+    }
+
+    .brand-mark {
+      width: 34px;
+      height: 34px;
+      display: grid;
+      place-items: center;
+      background: var(--rosso);
+      color: var(--ink);
+      font-weight: 800;
+      clip-path: polygon(50% 0, 100% 22%, 84% 100%, 16% 100%, 0 22%);
+    }
+
+    .nav-toggle {
+      display: none;
+      width: 48px;
+      height: 48px;
+      border: 1px solid var(--line);
+      background: transparent;
+      color: var(--ink);
+    }
+
+    .nav-toggle span {
+      display: block;
+      width: 20px;
+      height: 2px;
+      margin: 5px auto;
+      background: currentColor;
+      transition: transform .25s var(--ease), opacity .25s var(--ease);
+    }
+
+    .nav-toggle.is-open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-toggle.is-open span:nth-child(2) { opacity: 0; }
+    .nav-toggle.is-open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    .primary-nav {
+      display: flex;
+      align-items: center;
+      gap: clamp(16px, 2.4vw, 32px);
+    }
+
+    .nav-link {
+      color: var(--body);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .9px;
+      text-transform: uppercase;
+      transition: color .22s var(--ease);
+    }
+
+    .nav-link:hover, .nav-link[aria-current="page"] { color: var(--ink); }
+
+    .btn {
+      min-height: 48px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      border: 1px solid transparent;
+      padding: 14px 28px;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 1.3px;
+      text-transform: uppercase;
+      transition: transform .22s var(--ease), background .22s var(--ease), border-color .22s var(--ease);
+    }
+
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: var(--rosso); color: var(--ink); }
+    .btn-primary:hover { background: var(--rosso-dark); }
+    .btn-outline { border-color: rgba(255, 255, 251, .62); color: var(--ink); background: transparent; }
+    .btn-outline:hover { border-color: var(--ink); }
+    .btn-dark { background: var(--text-light); color: var(--ink); }
+    .btn-light-outline { border-color: var(--text-light); color: var(--text-light); background: transparent; }
+    .header-cta { flex: 0 0 auto; }
+
+    main { min-height: 70vh; }
+    .page { display: none; }
+    .page.active { display: block; animation: pageIn .5s var(--ease) both; }
+    @keyframes pageIn { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+
+    .hero {
+      min-height: calc(100vh - 72px);
+      position: relative;
+      display: grid;
+      align-items: end;
+      overflow: hidden;
+      isolation: isolate;
+      background: var(--deep);
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(90deg, rgba(16,16,15,.82), rgba(16,16,15,.18) 54%, rgba(16,16,15,.72)), linear-gradient(180deg, rgba(16,16,15,.08), rgba(16,16,15,.88));
+      z-index: -1;
+    }
+
+    .hero-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -2;
+      transform: scale(1.03);
+    }
+
+    .hero-content {
+      width: min(100%, var(--container));
+      margin: 0 auto;
+      padding: clamp(72px, 12vw, 128px) clamp(16px, 4vw, 48px);
+      display: grid;
+      grid-template-columns: minmax(0, 760px) minmax(260px, 420px);
+      gap: clamp(32px, 5vw, 72px);
+      align-items: end;
+    }
+
+    .eyebrow {
+      margin: 0 0 16px;
+      color: var(--rosso);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3, p { margin-top: 0; }
+    h1 {
+      margin-bottom: 24px;
+      max-width: 850px;
+      font-size: clamp(46px, 8vw, 94px);
+      line-height: .98;
+      letter-spacing: -3px;
+      font-weight: 500;
+    }
+
+    .page-hero h1 { font-size: clamp(42px, 7vw, 78px); }
+    .lede {
+      max-width: 680px;
+      color: var(--body);
+      font-size: clamp(17px, 2vw, 21px);
+    }
+
+    .hero-actions, .section-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+
+    .search-panel {
+      background: rgba(24,24,24,.9);
+      border: 1px solid rgba(255,255,251,.14);
+      padding: 24px;
+    }
+
+    .search-panel h2 { font-size: 22px; font-weight: 600; margin-bottom: 18px; }
+    .form-grid { display: grid; gap: 14px; }
+    .form-row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+
+    label { display: block; margin-bottom: 8px; color: inherit; font-size: 12px; font-weight: 800; letter-spacing: .9px; text-transform: uppercase; }
+    input, select, textarea {
+      width: 100%;
+      min-height: 48px;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      background: #1d1d1c;
+      color: var(--ink);
+      padding: 13px 14px;
+      outline: none;
+      transition: border-color .2s var(--ease), box-shadow .2s var(--ease);
+    }
+    textarea { min-height: 132px; resize: vertical; }
+    input:focus, select:focus, textarea:focus { border-color: var(--rosso); box-shadow: 0 0 0 3px rgba(218,41,28,.22); }
+    .light input, .light select, .light textarea { background: var(--light); color: var(--text-light); border-color: var(--line-light); }
+
+    .section { padding: clamp(72px, 10vw, 112px) clamp(16px, 4vw, 48px); }
+    .section-tight { padding-top: clamp(48px, 7vw, 80px); padding-bottom: clamp(48px, 7vw, 80px); }
+    .container { max-width: var(--container); margin: 0 auto; }
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(280px, 470px);
+      gap: 32px;
+      align-items: end;
+      margin-bottom: clamp(32px, 5vw, 64px);
+    }
+    .section-head h2, .split-copy h2, .center-head h2 {
+      margin-bottom: 0;
+      font-size: clamp(34px, 5.2vw, 60px);
+      line-height: 1.04;
+      letter-spacing: -1.6px;
+      font-weight: 500;
+    }
+    .section-head p, .center-head p { color: var(--body); margin: 0; }
+    .light { background: var(--light); color: var(--text-light); }
+    .light .eyebrow { color: var(--rosso); }
+    .light p, .light .muted { color: #5d5954; }
+
+    .vehicle-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+    .vehicle-card { background: var(--light); color: var(--text-light); overflow: hidden; }
+    .vehicle-card img { height: 245px; object-fit: cover; transition: transform .6s var(--ease); }
+    .vehicle-card:hover img { transform: scale(1.045); }
+    .vehicle-body { padding: 24px; }
+    .vehicle-meta { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+    .pill { display: inline-flex; align-items: center; min-height: 26px; padding: 4px 10px; border-radius: 999px; background: var(--soft); color: #55504b; font-size: 11px; font-weight: 800; letter-spacing: .8px; text-transform: uppercase; }
+    .vehicle-card h3 { margin-bottom: 8px; font-size: 22px; line-height: 1.15; }
+    .price { margin: 0 0 20px; color: var(--rosso); font-weight: 800; font-size: 20px; }
+    .spec-list { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line-light); border-bottom: 1px solid var(--line-light); margin: 18px 0; }
+    .spec-list div { padding: 13px 8px; border-right: 1px solid var(--line-light); }
+    .spec-list div:last-child { border-right: 0; }
+    .spec-list strong { display: block; font-size: 13px; }
+    .spec-list span { color: #69645f; font-size: 12px; }
+
+    .trust-strip { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); background: #151514; }
+    .trust-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+    .trust-item { padding: clamp(22px, 4vw, 38px); border-right: 1px solid var(--line); }
+    .trust-item:last-child { border-right: 0; }
+    .trust-item strong { display: block; font-size: clamp(26px, 4vw, 48px); line-height: 1; color: var(--ink); letter-spacing: -1px; }
+    .trust-item span { display: block; margin-top: 8px; color: var(--body); font-size: 13px; text-transform: uppercase; letter-spacing: 1px; }
+
+    .story-split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, 520px); gap: clamp(32px, 6vw, 80px); align-items: center; }
+    .image-panel { position: relative; min-height: 560px; overflow: hidden; background: var(--elevated); }
+    .image-panel img { position: absolute; inset: 0; height: 100%; object-fit: cover; }
+    .image-panel .caption {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 24px;
+      background: linear-gradient(180deg, transparent, rgba(16,16,15,.86));
+      color: var(--ink);
+    }
+    .split-copy p { color: var(--body); font-size: 17px; }
+    .principles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); margin-top: 48px; }
+    .principle { background: var(--canvas); padding: clamp(24px, 4vw, 40px); }
+    .principle .num { color: var(--rosso); font-size: 42px; font-weight: 800; letter-spacing: -1px; }
+    .principle h3 { font-size: 22px; margin: 12px 0; }
+    .principle p { color: var(--body); margin: 0; }
+
+    .testimonial-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+    .quote { background: var(--canvas); padding: clamp(28px, 5vw, 56px); }
+    .quote blockquote { margin: 0; font-size: clamp(24px, 3.2vw, 42px); line-height: 1.18; letter-spacing: -.8px; }
+    .quote cite { display: block; margin-top: 24px; color: var(--body); font-style: normal; }
+    .testimonial-list { background: var(--elevated); padding: 32px; display: grid; gap: 24px; }
+    .mini-quote { border-top: 1px solid #454542; padding-top: 22px; color: var(--body); }
+    .mini-quote:first-child { border-top: 0; padding-top: 0; }
+    .mini-quote strong { display: block; color: var(--ink); margin-bottom: 8px; }
+
+    .page-hero {
+      min-height: 58vh;
+      position: relative;
+      display: grid;
+      align-items: end;
+      overflow: hidden;
+      isolation: isolate;
+      background: var(--deep);
+    }
+    .page-hero::before { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(16,16,15,.86), rgba(16,16,15,.26)), linear-gradient(180deg, transparent, rgba(16,16,15,.78)); z-index: -1; }
+    .page-hero img { position: absolute; inset: 0; height: 100%; object-fit: cover; z-index: -2; }
+    .page-hero .container { width: 100%; padding: clamp(72px, 10vw, 112px) clamp(16px, 4vw, 48px); }
+
+    .value-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line-light); border: 1px solid var(--line-light); }
+    .value-card { background: var(--light); padding: clamp(24px, 4vw, 40px); }
+    .value-card h3 { font-size: 21px; }
+    .value-card p { margin-bottom: 0; }
+
+    .filter-panel {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 14px;
+      align-items: end;
+      padding: 24px;
+      border: 1px solid var(--line-light);
+      background: var(--soft);
+      margin-bottom: 32px;
+    }
+    .inventory-summary { display: flex; justify-content: space-between; gap: 16px; align-items: center; margin-bottom: 20px; color: #5d5954; }
+    .no-results { display: none; padding: 40px; border: 1px solid var(--line-light); background: var(--soft); text-align: center; }
+
+    .process-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+    .process-step { background: var(--canvas); padding: clamp(24px, 4vw, 40px); }
+    .process-step span { color: var(--rosso); font-size: 13px; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; }
+    .process-step h3 { margin: 18px 0 12px; font-size: 22px; }
+    .process-step p { color: var(--body); margin: 0; }
+
+    .valuation-layout { display: grid; grid-template-columns: minmax(280px, 460px) minmax(0, 1fr); gap: clamp(32px, 6vw, 80px); align-items: start; }
+    .benefit-list { display: grid; gap: 18px; margin-top: 28px; }
+    .benefit { display: grid; grid-template-columns: 36px 1fr; gap: 14px; align-items: start; }
+    .benefit span { width: 36px; height: 36px; display: grid; place-items: center; background: var(--rosso); color: var(--ink); font-weight: 800; }
+    .benefit p { margin: 4px 0 0; }
+
+    .form-card { padding: clamp(24px, 4vw, 40px); border: 1px solid var(--line-light); background: var(--soft); }
+    .faq-list { display: grid; gap: 12px; }
+    .faq-item { border: 1px solid var(--line); background: var(--canvas); }
+    .faq-question { width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 20px 24px; border: 0; background: transparent; color: var(--ink); text-align: left; font-weight: 800; }
+    .faq-answer { display: grid; grid-template-rows: 0fr; transition: grid-template-rows .28s var(--ease); }
+    .faq-answer > div { overflow: hidden; }
+    .faq-answer p { margin: 0; padding: 0 24px 22px; color: var(--body); }
+    .faq-item.is-open .faq-answer { grid-template-rows: 1fr; }
+
+    .contact-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(320px, 480px); gap: clamp(32px, 6vw, 80px); }
+    .contact-card { padding: 28px; border: 1px solid var(--line); background: var(--elevated); }
+    .contact-card + .contact-card { margin-top: 16px; }
+    .contact-card h3 { margin-bottom: 12px; }
+    .contact-card p { color: var(--body); margin-bottom: 8px; }
+    .hours { width: 100%; border-collapse: collapse; color: var(--body); }
+    .hours td { padding: 10px 0; border-bottom: 1px solid #444440; }
+    .hours td:last-child { text-align: right; color: var(--ink); }
+    .map-placeholder {
+      min-height: 320px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      background:
+        linear-gradient(90deg, rgba(255,255,251,.04) 1px, transparent 1px),
+        linear-gradient(rgba(255,255,251,.04) 1px, transparent 1px),
+        radial-gradient(circle at 50% 45%, rgba(218,41,28,.42), transparent 18%),
+        #222220;
+      background-size: 42px 42px, 42px 42px, auto, auto;
+      color: var(--body);
+      text-align: center;
+      padding: 32px;
+    }
+    .social-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .social-links a { min-height: 42px; display: inline-flex; align-items: center; border: 1px solid var(--line); padding: 10px 14px; color: var(--body); }
+    .social-links a:hover { color: var(--ink); border-color: var(--ink); }
+
+    .cta-band { background: var(--rosso); color: var(--ink); }
+    .cta-inner { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 28px; align-items: center; }
+    .cta-inner h2 { margin: 0; font-size: clamp(32px, 5vw, 56px); line-height: 1.05; font-weight: 500; letter-spacing: -1.2px; }
+    .cta-inner p { margin: 12px 0 0; color: rgba(255,255,251,.82); }
+
+    .site-footer { background: #111110; border-top: 1px solid var(--line); color: var(--body); }
+    .footer-grid { display: grid; grid-template-columns: 1.3fr repeat(3, 1fr); gap: 32px; padding: 64px clamp(16px, 4vw, 48px); max-width: var(--container); margin: 0 auto; }
+    .footer-grid h2, .footer-grid h3 { color: var(--ink); margin-bottom: 18px; }
+    .footer-grid ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+    .footer-grid a:hover { color: var(--ink); }
+    .footer-bottom { border-top: 1px solid var(--line); padding: 20px clamp(16px, 4vw, 48px); max-width: var(--container); margin: 0 auto; display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; font-size: 13px; }
+
+    .status { min-height: 24px; margin-top: 12px; color: var(--success); font-weight: 700; }
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s var(--ease), transform .7s var(--ease); }
+    .reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+    @media (max-width: 1040px) {
+      .hero-content, .section-head, .story-split, .valuation-layout, .contact-layout { grid-template-columns: 1fr; }
+      .search-panel { max-width: 620px; }
+      .trust-grid, .value-grid, .process-grid { grid-template-columns: repeat(2, 1fr); }
+      .principles { grid-template-columns: 1fr; }
+      .testimonial-grid { grid-template-columns: 1fr; }
+      .filter-panel { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .footer-grid { grid-template-columns: repeat(2, 1fr); }
+      .cta-inner { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 820px) {
+      .nav-toggle { display: inline-block; }
+      .primary-nav {
+        position: absolute;
+        inset: 72px 0 auto;
+        display: grid;
+        gap: 0;
+        border-bottom: 1px solid var(--line);
+        background: rgba(24, 24, 24, .98);
+        transform: translateY(-130%);
+        opacity: 0;
+        pointer-events: none;
+        transition: transform .28s var(--ease), opacity .28s var(--ease);
+      }
+      .primary-nav.is-open { transform: translateY(0); opacity: 1; pointer-events: auto; }
+      .primary-nav .nav-link { padding: 18px clamp(16px, 4vw, 48px); border-top: 1px solid var(--line); }
+      .header-cta { display: none; }
+      h1 { letter-spacing: -1.6px; }
+      .image-panel { min-height: 390px; }
+    }
+
+    @media (max-width: 640px) {
+      .hero { min-height: auto; }
+      .hero-content { padding-top: 96px; }
+      .hero-actions, .section-actions { flex-direction: column; align-items: stretch; }
+      .form-row, .trust-grid, .value-grid, .process-grid, .filter-panel { grid-template-columns: 1fr; }
+      .trust-item { border-right: 0; border-bottom: 1px solid var(--line); }
+      .trust-item:last-child { border-bottom: 0; }
+      .spec-list { grid-template-columns: 1fr; }
+      .spec-list div { border-right: 0; border-bottom: 1px solid var(--line-light); }
+      .spec-list div:last-child { border-bottom: 0; }
+      .inventory-summary { align-items: flex-start; flex-direction: column; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="nav-shell">
+      <a class="brand" href="#home" data-route="home" aria-label="Flash Cars home"><span class="brand-mark">F</span><span>Flash Cars</span></a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a class="nav-link" href="#home" data-route="home">Home</a>
+        <a class="nav-link" href="#about" data-route="about">About</a>
+        <a class="nav-link" href="#inventory" data-route="inventory">Inventory</a>
+        <a class="nav-link" href="#sell" data-route="sell">Sell Your Car</a>
+        <a class="nav-link" href="#contact" data-route="contact">Contact</a>
+      </nav>
+      <a class="btn btn-primary header-cta" href="#sell" data-route="sell">Get Valuation</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="page active" aria-labelledby="home-title">
+      <div class="hero">
+        <img class="hero-img" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1800&q=82" alt="Red supercar driving through a mountain road at dusk">
+        <div class="hero-content">
+          <div>
+            <p class="eyebrow">New and used supercars</p>
+            <h1 id="home-title">Acquire the car people hear before they see.</h1>
+            <p class="lede">Flash Cars sources, presents, buys, and sells exceptional supercars with the discretion and pace serious buyers expect.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#inventory" data-route="inventory">View Inventory</a>
+              <a class="btn btn-outline" href="#sell" data-route="sell">Sell Your Car</a>
+            </div>
+          </div>
+          <form class="search-panel js-lead-form" aria-label="Supercar search form">
+            <h2>Find your next car</h2>
+            <div class="form-grid">
+              <div class="form-row">
+                <div><label for="home-make">Make</label><select id="home-make" name="make"><option value="">Any make</option><option>Ferrari</option><option>Lamborghini</option><option>McLaren</option><option>Porsche</option></select></div>
+                <div><label for="home-budget">Budget</label><select id="home-budget" name="budget"><option value="">Any budget</option><option>$150k to $250k</option><option>$250k to $400k</option><option>$400k+</option></select></div>
+              </div>
+              <div><label for="home-name">Name</label><input id="home-name" name="name" autocomplete="name" required placeholder="Your name"></div>
+              <div><label for="home-email">Email</label><input id="home-email" type="email" name="email" autocomplete="email" required placeholder="you@example.com"></div>
+              <button class="btn btn-primary" type="submit">Request Matches</button>
+              <p class="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <section class="trust-strip" aria-label="Flash Cars trust indicators">
+        <div class="container trust-grid">
+          <div class="trust-item reveal"><strong>14+</strong><span>Years in prestige stock</span></div>
+          <div class="trust-item reveal"><strong>520</strong><span>Vehicles placed</span></div>
+          <div class="trust-item reveal"><strong>48h</strong><span>Average valuation window</span></div>
+          <div class="trust-item reveal"><strong>100%</strong><span>HPI and provenance checks</span></div>
+        </div>
+      </section>
+
+      <section class="section light">
+        <div class="container">
+          <div class="section-head reveal">
+            <h2>Featured vehicles selected for condition, history, and presence.</h2>
+            <p>Our stock changes quickly. These examples show the calibre of Ferrari, Lamborghini, McLaren, and Porsche supercars we handle for buyers and sellers.</p>
+          </div>
+          <div class="vehicle-grid" id="featuredGrid"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container story-split">
+          <div class="image-panel reveal">
+            <img src="https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1400&q=82" alt="Black supercar parked in a premium showroom">
+            <div class="caption">Private viewings, verified paperwork, and no pressure.</div>
+          </div>
+          <div class="split-copy reveal">
+            <p class="eyebrow">Why choose us</p>
+            <h2>Premium buying without the theatre.</h2>
+            <p>We combine showroom presentation with buyer-grade due diligence: finance history, service records, ownership checks, paintwork reports, and realistic market pricing.</p>
+            <p>For sellers, we handle valuation, photography, qualified buyer conversations, and secure payment. For buyers, we shorten the distance between interest and the right keys.</p>
+            <div class="section-actions"><a class="btn btn-primary" href="#contact" data-route="contact">Make an Inquiry</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-tight">
+        <div class="container testimonial-grid reveal">
+          <div class="quote"><blockquote>“Flash Cars found the Huracan I wanted, inspected it properly, and made the transaction feel measured rather than rushed.”</blockquote><cite>Daniel R, Lamborghini buyer</cite></div>
+          <div class="testimonial-list">
+            <div class="mini-quote"><strong>Amira S</strong>Sold my Ferrari 488 in eight days with better presentation than any classified listing could offer.</div>
+            <div class="mini-quote"><strong>Marcus T</strong>Clear numbers, careful handover, and no vague promises. Exactly what a supercar dealer should be.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta-band">
+        <div class="container cta-inner">
+          <div><h2>Tell us what you want to buy or sell.</h2><p>We will respond with next steps, current market guidance, and a realistic route forward.</p></div>
+          <a class="btn btn-dark" href="#contact" data-route="contact">Start Conversation</a>
+        </div>
+      </section>
+    </section>
+
+    <section id="about" class="page" aria-labelledby="about-title">
+      <div class="page-hero">
+        <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1800&q=82" alt="Silver sports car in a dark studio">
+        <div class="container"><p class="eyebrow">About Flash Cars</p><h1 id="about-title">A specialist supercar broker built around clarity.</h1><p class="lede">We help serious buyers and sellers move confidently in a market where condition, timing, and trust matter.</p></div>
+      </div>
+      <section class="section">
+        <div class="container story-split">
+          <div class="split-copy reveal"><p class="eyebrow">Our story</p><h2>Born from the gap between classified chaos and dealer theatre.</h2><p>Flash Cars began with a simple problem: supercar buyers wanted better verification, and sellers wanted better presentation without losing control of the deal.</p><p>Today we operate as a focused buying and selling partner for new and used supercars. Every car we list has a reason to be here: provenance, specification, condition, or market opportunity.</p></div>
+          <div class="image-panel reveal"><img src="https://images.unsplash.com/photo-1535732820275-9ffd998cac22?auto=format&fit=crop&w=1400&q=82" alt="Supercar steering wheel and dashboard detail"><div class="caption">The details decide value.</div></div>
+        </div>
+        <div class="principles reveal">
+          <div class="principle"><div class="num">01</div><h3>Mission</h3><p>Make buying and selling supercars faster, safer, and more transparent for people who value their time.</p></div>
+          <div class="principle"><div class="num">02</div><h3>Values</h3><p>Precision, discretion, accurate pricing, careful communication, and respect for the machinery.</p></div>
+          <div class="principle"><div class="num">03</div><h3>Difference</h3><p>We qualify the car and the person before anyone is asked to travel, negotiate, or commit funds.</p></div>
+        </div>
+      </section>
+      <section class="section light">
+        <div class="container">
+          <div class="section-head reveal"><h2>What sets us apart.</h2><p>Flash Cars is designed for high-intent clients. Fewer distractions, stronger checks, better conversations.</p></div>
+          <div class="value-grid reveal">
+            <div class="value-card"><h3>Verified provenance</h3><p>Ownership, service, finance, mileage, and specification checks before a car is promoted.</p></div>
+            <div class="value-card"><h3>Market-led pricing</h3><p>Valuations reference real demand, current comparable stock, and specification quality.</p></div>
+            <div class="value-card"><h3>Presentation standard</h3><p>Photography, copy, and vehicle details are treated as part of the sales strategy.</p></div>
+            <div class="value-card"><h3>Qualified inquiries</h3><p>We reduce noise by connecting sellers with buyers who have intent and means.</p></div>
+          </div>
+        </div>
+      </section>
+      <section class="section section-tight">
+        <div class="container">
+          <div class="section-head reveal"><h2>What clients say.</h2><p>A few short reflections from buyers and sellers who wanted a cleaner, more credible process.</p></div>
+          <div class="testimonial-grid reveal">
+            <div class="quote"><blockquote>"Flash Cars kept everything clear from first call to final handover. No wasted viewings, no inflated promises, just a very solid process."</blockquote><cite>Oliver M, Ferrari seller</cite></div>
+            <div class="testimonial-list">
+              <div class="mini-quote"><strong>Sophia L</strong>They sourced the right car quickly and backed it up with the checks I wanted to see before committing.</div>
+              <div class="mini-quote"><strong>James K</strong>Professional communication, realistic pricing, and a much smoother experience than selling privately.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="inventory" class="page" aria-labelledby="inventory-title">
+      <div class="page-hero">
+        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1800&q=82" alt="Yellow performance car photographed low from the front">
+        <div class="container"><p class="eyebrow">Current inventory</p><h1 id="inventory-title">Ferrari, Lamborghini, and exceptional supercars ready for inquiry.</h1><p class="lede">Filter live sample stock by make, model, price, and year. Each inquiry opens a direct conversation with Flash Cars.</p></div>
+      </div>
+      <section class="section light">
+        <div class="container">
+          <form class="filter-panel" aria-label="Filter inventory">
+            <div><label for="filter-make">Make</label><select id="filter-make"><option value="all">All makes</option></select></div>
+            <div><label for="filter-model">Model</label><select id="filter-model"><option value="all">All models</option></select></div>
+            <div><label for="filter-price">Price</label><select id="filter-price"><option value="all">Any price</option><option value="0-250000">Under $250k</option><option value="250000-400000">$250k to $400k</option><option value="400000-1000000">$400k+</option></select></div>
+            <div><label for="filter-year">Year</label><select id="filter-year"><option value="all">Any year</option><option value="2024">2024+</option><option value="2022">2022+</option><option value="2020">2020+</option></select></div>
+            <button class="btn btn-dark" type="button" id="resetFilters">Reset</button>
+          </form>
+          <div class="inventory-summary"><p id="inventoryCount">Showing all vehicles</p><p>Images are Unsplash placeholders for preview.</p></div>
+          <div class="vehicle-grid" id="inventoryGrid"></div>
+          <div class="no-results" id="noResults"><h2>No vehicles match those filters.</h2><p>Change the filters or contact us for off-market Ferrari, Lamborghini, and supercar sourcing.</p></div>
+        </div>
+      </section>
+    </section>
+
+    <section id="sell" class="page" aria-labelledby="sell-title">
+      <div class="page-hero">
+        <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1800&q=82" alt="Orange Lamborghini parked under dramatic lighting">
+        <div class="container"><p class="eyebrow">Sell your supercar</p><h1 id="sell-title">A better exit for rare cars and serious owners.</h1><p class="lede">Get an informed valuation, a clear route to market, and buyer handling that protects your time.</p></div>
+      </div>
+      <section class="section">
+        <div class="container">
+          <div class="section-head reveal"><h2>Four steps from valuation to handover.</h2><p>We keep the process precise: understand the car, price it accurately, present it properly, and complete securely.</p></div>
+          <div class="process-grid reveal">
+            <div class="process-step"><span>Step 01</span><h3>Tell us the car</h3><p>Send model, year, mileage, ownership history, service records, and specification highlights.</p></div>
+            <div class="process-step"><span>Step 02</span><h3>Receive valuation</h3><p>We compare market data and condition factors to recommend a realistic selling range.</p></div>
+            <div class="process-step"><span>Step 03</span><h3>Approve strategy</h3><p>Choose discreet sourcing, public listing, or a direct buyer approach depending on your timeline.</p></div>
+            <div class="process-step"><span>Step 04</span><h3>Complete securely</h3><p>We coordinate viewing, negotiation, payment, paperwork, and handover logistics.</p></div>
+          </div>
+        </div>
+      </section>
+      <section class="section light">
+        <div class="container valuation-layout">
+          <div class="split-copy reveal"><p class="eyebrow">Owner benefits</p><h2>Sell without losing control of the car or the deal.</h2><div class="benefit-list"><div class="benefit"><span>✓</span><div><strong>Accurate market guidance</strong><p>No inflated promises designed only to win the listing.</p></div></div><div class="benefit"><span>✓</span><div><strong>Premium presentation</strong><p>Position your Ferrari, Lamborghini, or supercar for serious buyers.</p></div></div><div class="benefit"><span>✓</span><div><strong>Buyer qualification</strong><p>Reduce time-wasters before calls, viewings, or negotiation.</p></div></div></div></div>
+          <form class="form-card js-lead-form" aria-label="Vehicle valuation form">
+            <h2>Request a valuation</h2>
+            <div class="form-grid">
+              <div class="form-row"><div><label for="sell-name">Name</label><input id="sell-name" name="name" required autocomplete="name"></div><div><label for="sell-email">Email</label><input id="sell-email" name="email" type="email" required autocomplete="email"></div></div>
+              <div class="form-row"><div><label for="sell-make">Make</label><input id="sell-make" name="make" required placeholder="Ferrari"></div><div><label for="sell-model">Model</label><input id="sell-model" name="model" required placeholder="488 GTB"></div></div>
+              <div class="form-row"><div><label for="sell-year">Year</label><input id="sell-year" name="year" type="number" min="1980" max="2026" placeholder="2021"></div><div><label for="sell-mileage">Mileage</label><input id="sell-mileage" name="mileage" type="number" min="0" placeholder="8,500"></div></div>
+              <div><label for="sell-message">Condition and service notes</label><textarea id="sell-message" name="message" placeholder="Owners, options, service history, paint protection, finance status"></textarea></div>
+              <button class="btn btn-dark" type="submit">Send Valuation Request</button><p class="status" aria-live="polite"></p>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="section-head reveal"><h2>Questions sellers ask first.</h2><p>If your question is not covered, contact us with the vehicle details and preferred sale timeline.</p></div>
+          <div class="faq-list reveal">
+            <div class="faq-item is-open"><button class="faq-question" type="button">Do you buy cars directly?<span>+</span></button><div class="faq-answer"><div><p>Yes. For suitable stock we can make a direct purchase offer or recommend a brokered route if it should produce a stronger outcome.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" type="button">Can you handle finance settlement?<span>+</span></button><div class="faq-answer"><div><p>We can account for existing finance during the transaction and coordinate settlement as part of completion.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" type="button">Do you work with modified cars?<span>+</span></button><div class="faq-answer"><div><p>Yes, if the modifications are documented, legal, and appropriate for the target buyer. Original parts and paperwork help valuation.</p></div></div></div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="contact" class="page" aria-labelledby="contact-title">
+      <div class="page-hero">
+        <img src="https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1800&q=82" alt="Luxury sports car parked in a premium city setting">
+        <div class="container"><p class="eyebrow">Contact Flash Cars</p><h1 id="contact-title">Start with the car. We will handle the next move.</h1><p class="lede">Send an inquiry, book a viewing, or ask for current market guidance on Ferrari, Lamborghini, and other supercars.</p></div>
+      </div>
+      <section class="section">
+        <div class="container contact-layout">
+          <form class="contact-card js-lead-form" aria-label="Contact form">
+            <h2>Make an inquiry</h2>
+            <div class="form-grid">
+              <div class="form-row"><div><label for="contact-name">Name</label><input id="contact-name" name="name" required autocomplete="name"></div><div><label for="contact-email">Email</label><input id="contact-email" name="email" type="email" required autocomplete="email"></div></div>
+              <div class="form-row"><div><label for="contact-phone">Phone</label><input id="contact-phone" name="phone" autocomplete="tel"></div><div><label for="contact-topic">Topic</label><select id="contact-topic" name="topic"><option>Buying a supercar</option><option>Selling a supercar</option><option>Book a viewing</option><option>General inquiry</option></select></div></div>
+              <div><label for="contact-message">Message</label><textarea id="contact-message" name="message" required placeholder="Tell us what you want to buy or sell."></textarea></div>
+              <button class="btn btn-primary" type="submit">Send Inquiry</button><p class="status" aria-live="polite"></p>
+            </div>
+          </form>
+          <aside>
+            <div class="contact-card"><h3>Dealership information</h3><p><strong>Flash Cars</strong></p><p>21 Velocity House, Park Lane, London W1K 7AA</p><p><a href="tel:+442012345678">+44 20 1234 5678</a></p><p><a href="mailto:hello@flashcars.example">hello@flashcars.example</a></p><div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></div></div>
+            <div class="contact-card"><h3>Business hours</h3><table class="hours"><tr><td>Monday to Friday</td><td>09:00 to 18:00</td></tr><tr><td>Saturday</td><td>10:00 to 16:00</td></tr><tr><td>Sunday</td><td>By appointment</td></tr></table></div>
+            <div class="map-placeholder" aria-label="Map placeholder"><div><strong>Map placeholder</strong><br>Park Lane showroom location</div></div>
+          </aside>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid">
+      <div><h2>Flash Cars</h2><p>Buying and selling new and used supercars with verified provenance, premium presentation, and qualified inquiries.</p></div>
+      <div><h3>Pages</h3><ul><li><a href="#home" data-route="home">Home</a></li><li><a href="#about" data-route="about">About</a></li><li><a href="#inventory" data-route="inventory">Inventory</a></li><li><a href="#sell" data-route="sell">Sell Your Car</a></li><li><a href="#contact" data-route="contact">Contact</a></li></ul></div>
+      <div><h3>Contact</h3><ul><li><a href="tel:+442012345678">+44 20 1234 5678</a></li><li><a href="mailto:hello@flashcars.example">hello@flashcars.example</a></li><li>Park Lane, London</li></ul></div>
+      <div><h3>Social</h3><ul><li><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a></li><li><a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube</a></li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> Flash Cars. All rights reserved.</span><span>SEO focus: Supercars, Ferrari, Lamborghini.</span></div>
+  </footer>
+
+  <script>
+    const vehicles = [
+      { make: 'Ferrari', model: 'F8 Tributo', year: 2022, price: 338000, mileage: '4,900 mi', power: '710 hp', image: 'https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=1100&q=82', alt: 'Red Ferrari style supercar parked in a studio', featured: true },
+      { make: 'Lamborghini', model: 'Huracan EVO', year: 2021, price: 289000, mileage: '6,200 mi', power: '631 hp', image: 'https://images.unsplash.com/photo-1519245659620-e859806a8d3b?auto=format&fit=crop&w=1100&q=82', alt: 'Orange Lamborghini style supercar at sunset', featured: true },
+      { make: 'McLaren', model: '720S Performance', year: 2020, price: 274000, mileage: '8,100 mi', power: '710 hp', image: 'https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=1100&q=82', alt: 'White McLaren style supercar on a road', featured: true },
+      { make: 'Porsche', model: '911 GT3 RS', year: 2024, price: 246000, mileage: '900 mi', power: '518 hp', image: 'https://images.unsplash.com/photo-1611859266238-4b98091d9d9b?auto=format&fit=crop&w=1100&q=82', alt: 'Porsche sports car photographed from the front', featured: false },
+      { make: 'Ferrari', model: '296 GTB', year: 2024, price: 412000, mileage: '1,300 mi', power: '819 hp', image: 'https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?auto=format&fit=crop&w=1100&q=82', alt: 'Red Ferrari style supercar in motion', featured: false },
+      { make: 'Aston Martin', model: 'DBS Superleggera', year: 2022, price: 232000, mileage: '7,400 mi', power: '715 hp', image: 'https://images.unsplash.com/photo-1606220838315-056192d5e927?auto=format&fit=crop&w=1100&q=82', alt: 'Dark Aston Martin grand tourer parked outside', featured: false },
+      { make: 'Lamborghini', model: 'Urus Performante', year: 2023, price: 318000, mileage: '3,800 mi', power: '657 hp', image: 'https://images.unsplash.com/photo-1600712242805-5f78671b24da?auto=format&fit=crop&w=1100&q=82', alt: 'Luxury performance SUV on a city street', featured: false },
+      { make: 'Bentley', model: 'Continental GT Speed', year: 2022, price: 219000, mileage: '9,600 mi', power: '650 hp', image: 'https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9?auto=format&fit=crop&w=1100&q=82', alt: 'Luxury coupe parked under dramatic light', featured: false }
+    ];
+
+    const pages = document.querySelectorAll('.page');
+    const navLinks = document.querySelectorAll('[data-route]');
+    const nav = document.querySelector('.primary-nav');
+    const navToggle = document.querySelector('.nav-toggle');
+    const inventoryGrid = document.getElementById('inventoryGrid');
+    const featuredGrid = document.getElementById('featuredGrid');
+    const filters = {
+      make: document.getElementById('filter-make'),
+      model: document.getElementById('filter-model'),
+      price: document.getElementById('filter-price'),
+      year: document.getElementById('filter-year')
+    };
+
+    function money(value) {
+      return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(value);
+    }
+
+    function vehicleCard(vehicle) {
+      return `<article class="vehicle-card" data-make="${vehicle.make}" data-model="${vehicle.model}" data-year="${vehicle.year}" data-price="${vehicle.price}">
+        <img src="${vehicle.image}" alt="${vehicle.alt}" loading="lazy">
+        <div class="vehicle-body">
+          <div class="vehicle-meta"><span class="pill">${vehicle.year}</span><span class="pill">${vehicle.make}</span></div>
+          <h3>${vehicle.make} ${vehicle.model}</h3>
+          <p class="price">${money(vehicle.price)}</p>
+          <div class="spec-list"><div><strong>${vehicle.mileage}</strong><span>Mileage</span></div><div><strong>${vehicle.power}</strong><span>Power</span></div><div><strong>Checked</strong><span>History</span></div></div>
+          <button class="btn btn-dark inquiry-btn" type="button" data-car="${vehicle.make} ${vehicle.model}">Inquire</button>
+        </div>
+      </article>`;
+    }
+
+    function renderVehicles() {
+      featuredGrid.innerHTML = vehicles.filter(v => v.featured).map(vehicleCard).join('');
+      populateFilters();
+      applyFilters();
+    }
+
+    function populateFilters() {
+      const makes = [...new Set(vehicles.map(v => v.make))].sort();
+      const models = [...new Set(vehicles.map(v => v.model))].sort();
+      filters.make.innerHTML = '<option value="all">All makes</option>' + makes.map(make => `<option value="${make}">${make}</option>`).join('');
+      filters.model.innerHTML = '<option value="all">All models</option>' + models.map(model => `<option value="${model}">${model}</option>`).join('');
+    }
+
+    function applyFilters() {
+      const [minPrice, maxPrice] = filters.price.value === 'all' ? [0, Infinity] : filters.price.value.split('-').map(Number);
+      const minYear = filters.year.value === 'all' ? 0 : Number(filters.year.value);
+      const filtered = vehicles.filter(vehicle => {
+        return (filters.make.value === 'all' || vehicle.make === filters.make.value) &&
+          (filters.model.value === 'all' || vehicle.model === filters.model.value) &&
+          vehicle.price >= minPrice && vehicle.price <= maxPrice && vehicle.year >= minYear;
+      });
+      inventoryGrid.innerHTML = filtered.map(vehicleCard).join('');
+      document.getElementById('inventoryCount').textContent = `Showing ${filtered.length} of ${vehicles.length} vehicles`;
+      document.getElementById('noResults').style.display = filtered.length ? 'none' : 'block';
+    }
+
+    function setRoute(route) {
+      const nextRoute = document.getElementById(route) ? route : 'home';
+      pages.forEach(page => page.classList.toggle('active', page.id === nextRoute));
+      navLinks.forEach(link => link.setAttribute('aria-current', link.dataset.route === nextRoute ? 'page' : 'false'));
+      nav.classList.remove('is-open');
+      navToggle.classList.remove('is-open');
+      navToggle.setAttribute('aria-expanded', 'false');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      document.title = `Flash Cars | ${nextRoute === 'home' ? 'Buy and Sell Supercars' : nextRoute.replace('-', ' ')}`;
+    }
+
+    navLinks.forEach(link => link.addEventListener('click', event => {
+      event.preventDefault();
+      const route = link.dataset.route;
+      history.pushState(null, '', `#${route}`);
+      setRoute(route);
+    }));
+
+    navToggle.addEventListener('click', () => {
+      const open = !nav.classList.contains('is-open');
+      nav.classList.toggle('is-open', open);
+      navToggle.classList.toggle('is-open', open);
+      navToggle.setAttribute('aria-expanded', String(open));
+    });
+
+    Object.values(filters).forEach(filter => filter.addEventListener('change', applyFilters));
+    document.getElementById('resetFilters').addEventListener('click', () => {
+      Object.values(filters).forEach(filter => filter.value = 'all');
+      applyFilters();
+    });
+
+    document.addEventListener('click', event => {
+      const inquiry = event.target.closest('.inquiry-btn');
+      if (inquiry) {
+        const car = inquiry.dataset.car;
+        history.pushState(null, '', '#contact');
+        setRoute('contact');
+        document.getElementById('contact-topic').value = 'Buying a supercar';
+        document.getElementById('contact-message').value = `I would like to inquire about the ${car}. Please send availability, history, and viewing details.`;
+        document.getElementById('contact-name').focus();
+      }
+
+      const faqButton = event.target.closest('.faq-question');
+      if (faqButton) faqButton.parentElement.classList.toggle('is-open');
+    });
+
+    document.querySelectorAll('.js-lead-form').forEach(form => {
+      form.addEventListener('submit', event => {
+        event.preventDefault();
+        const status = form.querySelector('.status');
+        if (!form.checkValidity()) {
+          form.reportValidity();
+          return;
+        }
+        status.textContent = 'Thank you. Flash Cars will respond shortly.';
+        form.reset();
+      });
+    });
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: .14 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    window.addEventListener('popstate', () => setRoute(location.hash.slice(1) || 'home'));
+    document.getElementById('year').textContent = new Date().getFullYear();
+    renderVehicles();
+    setRoute(location.hash.slice(1) || 'home');
+  </script>
+</body>
+</html>
