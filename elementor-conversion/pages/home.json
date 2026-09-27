@@ -1,0 +1,1028 @@
+{
+  "title": "Flash Cars — Home",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "2a7db40",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 96,
+          "right": 48,
+          "bottom": 96,
+          "left": 48,
+          "isLinked": false
+        },
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 40
+        },
+        "flex_wrap": "wrap",
+        "background_background": "classic",
+        "background_color": "#10100f",
+        "min_height": {
+          "unit": "vh",
+          "size": 88,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "5127cbb",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 0,
+              "right": 0,
+              "bottom": 0,
+              "left": 0,
+              "isLinked": false
+            },
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "width": {
+              "unit": "%",
+              "size": 62,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "a6f8006",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "New and used supercars",
+                "header_size": "h6",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "title_color": "#da291c"
+              },
+              "elements": []
+            },
+            {
+              "id": "b2a1dff",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Acquire the car people hear before they see.",
+                "header_size": "h1",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 80
+                },
+                "title_color": "#fffffb"
+              },
+              "elements": []
+            },
+            {
+              "id": "b93d107",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Flash Cars sources, presents, buys, and sells exceptional supercars with the discretion and pace serious buyers expect.</p>",
+                "text_color": "#b4b0ab"
+              },
+              "elements": []
+            },
+            {
+              "id": "052e0fa",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 8,
+                  "right": 0,
+                  "bottom": 0,
+                  "left": 0,
+                  "isLinked": false
+                },
+                "flex_direction": "row",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "flex_wrap": "wrap"
+              },
+              "elements": [
+                {
+                  "id": "0546730",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View Inventory",
+                    "link": {
+                      "url": "/inventory/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#da291c"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "89c0205",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Sell Your Car",
+                    "link": {
+                      "url": "/sell-your-car/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#181818"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dd99fd6",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 24,
+              "right": 24,
+              "bottom": 24,
+              "left": 24,
+              "isLinked": false
+            },
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "width": {
+              "unit": "%",
+              "size": 38,
+              "sizes": []
+            },
+            "background_background": "classic",
+            "background_color": "#181818",
+            "background_opacity": 0.92,
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": 1,
+              "right": 1,
+              "bottom": 1,
+              "left": 1,
+              "isLinked": true
+            },
+            "border_color": "rgba(255,255,251,0.14)"
+          },
+          "elements": [
+            {
+              "id": "da9c288",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Find your next car",
+                "header_size": "h3",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "title_color": "#fffffb"
+              },
+              "elements": []
+            },
+            {
+              "id": "f716f28",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "[WPForms id=\"HOME_SEARCH\"]",
+                "text_color": "#b4b0ab"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "551ab5a",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 28,
+          "right": 48,
+          "bottom": 28,
+          "left": 48,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_color": "#151514"
+      },
+      "elements": [
+        {
+          "id": "e391632",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Trust indicators",
+            "header_size": "h2",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 24
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "026e591",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 72,
+              "right": 48,
+              "bottom": 72,
+              "left": 48,
+              "isLinked": false,
+              "unit_tablet": "px",
+              "unit_mobile": "px"
+            },
+            "flex_direction": "row",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 20
+            },
+            "flex_wrap": "wrap"
+          },
+          "elements": [
+            {
+              "id": "ba94128",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>14+</strong><br>Years in prestige stock</p>",
+                "text_color": "#b4b0ab"
+              },
+              "elements": []
+            },
+            {
+              "id": "c65b16d",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>520</strong><br>Vehicles placed</p>",
+                "text_color": "#b4b0ab"
+              },
+              "elements": []
+            },
+            {
+              "id": "45f1294",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>48h</strong><br>Average valuation window</p>",
+                "text_color": "#b4b0ab"
+              },
+              "elements": []
+            },
+            {
+              "id": "a3e6060",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>100%</strong><br>HPI and provenance checks</p>",
+                "text_color": "#b4b0ab"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c8d5abf",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": [
+        {
+          "id": "e4706e4",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Featured vehicles selected for condition, history, and presence.",
+            "header_size": "h2",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 52
+            },
+            "title_color": "#181818"
+          },
+          "elements": []
+        },
+        {
+          "id": "40e6354",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Our stock changes quickly. These examples show the calibre of Ferrari, Lamborghini, McLaren, and Porsche supercars we handle for buyers and sellers.</p>",
+            "text_color": "#5d5954"
+          },
+          "elements": []
+        },
+        {
+          "id": "41b86a9",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 72,
+              "right": 48,
+              "bottom": 72,
+              "left": 48,
+              "isLinked": false,
+              "unit_tablet": "px",
+              "unit_mobile": "px"
+            },
+            "flex_direction": "row",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 1
+            },
+            "flex_wrap": "wrap",
+            "background_background": "classic",
+            "background_color": "#333331"
+          },
+          "elements": [
+            {
+              "id": "a65f92d",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 33.33,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "b97cbbe",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Ferrari F8 Tributo",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6066d72",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>$338,000</strong> · 2022 · 4,900 mi · 710 hp</p>",
+                    "text_color": "#da291c"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "7135db7",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Inquire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#da291c"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "848a5ae",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 33.33,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "c6b4518",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Lamborghini Huracan EVO",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "2e91e90",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>$289,000</strong> · 2021 · 6,200 mi · 631 hp</p>",
+                    "text_color": "#da291c"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "419c716",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Inquire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#da291c"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "7f6269e",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 33.33,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "78b916f",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "McLaren 720S Performance",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "78c4d90",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>$274,000</strong> · 2020 · 8,100 mi · 710 hp</p>",
+                    "text_color": "#da291c"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "79d4858",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Inquire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#da291c"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f3b6f10",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 48
+        },
+        "background_background": "classic",
+        "background_color": "#181818",
+        "flex_wrap": "wrap"
+      },
+      "elements": [
+        {
+          "id": "c4ed085",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 72,
+              "right": 48,
+              "bottom": 72,
+              "left": 48,
+              "isLinked": false,
+              "unit_tablet": "px",
+              "unit_mobile": "px"
+            },
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "width": {
+              "unit": "%",
+              "size": 45,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "9892412",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=1400&q=82",
+                  "id": 0
+                },
+                "image_size": "full",
+                "image_alt": "Black supercar parked in a premium showroom",
+                "object_fit": "cover"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "80791b9",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 72,
+              "right": 48,
+              "bottom": 72,
+              "left": 48,
+              "isLinked": false,
+              "unit_tablet": "px",
+              "unit_mobile": "px"
+            },
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "width": {
+              "unit": "%",
+              "size": 55,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "bd451c7",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Premium buying without the theatre.",
+                "header_size": "h2",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 52
+                },
+                "title_color": "#fffffb"
+              },
+              "elements": []
+            },
+            {
+              "id": "c3ff220",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>We combine showroom presentation with buyer-grade due diligence: finance history, service records, ownership checks, paintwork reports, and realistic market pricing.</p><p>For sellers, we handle valuation, photography, qualified buyer conversations, and secure payment.</p>",
+                "text_color": "#b4b0ab"
+              },
+              "elements": []
+            },
+            {
+              "id": "41e7549",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Make an Inquiry",
+                "link": {
+                  "url": "/contact/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "size": "md",
+                "button_text_color": "#fffffb",
+                "background_color": "#da291c"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c16b01e",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_color": "#181818"
+      },
+      "elements": [
+        {
+          "id": "cb71c3d",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "What clients say.",
+            "header_size": "h2",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 44
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "5cda6cb",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<blockquote>“Flash Cars found the Huracan I wanted, inspected it properly, and made the transaction feel measured rather than rushed.”</blockquote><p>Daniel R, Lamborghini buyer</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "bc3d051",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p><strong>Amira S</strong> — Sold my Ferrari 488 in eight days with better presentation than any classified listing could offer.</p><p><strong>Marcus T</strong> — Clear numbers, careful handover, and no vague promises.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "b5e47c8",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_color": "#da291c"
+      },
+      "elements": [
+        {
+          "id": "f736ee7",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Tell us what you want to buy or sell.",
+            "header_size": "h2",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 52
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "4daaf6f",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>We will respond with next steps, current market guidance, and a realistic route forward.</p>",
+            "text_color": "#ffffff"
+          },
+          "elements": []
+        },
+        {
+          "id": "7fbb18b",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Start Conversation",
+            "link": {
+              "url": "/contact/",
+              "is_external": "",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "size": "md",
+            "button_text_color": "#fffffb",
+            "background_color": "#da291c"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}
