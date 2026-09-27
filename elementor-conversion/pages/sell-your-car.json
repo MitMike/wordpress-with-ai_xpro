@@ -1,0 +1,525 @@
+{
+  "title": "Flash Cars — Sell Your Car",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "904800e",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 110,
+          "right": 48,
+          "bottom": 100,
+          "left": 48,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1800&q=82",
+          "id": 0
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#10100f",
+        "background_overlay_opacity": 0.66,
+        "min_height": {
+          "unit": "vh",
+          "size": 58,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "1c5df88",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Sell your supercar",
+            "header_size": "h6",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "title_color": "#da291c"
+          },
+          "elements": []
+        },
+        {
+          "id": "d1dc1b9",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "A better exit for rare cars and serious owners.",
+            "header_size": "h1",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 72
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "0fa9f06",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Get an informed valuation, a clear route to market, and buyer handling that protects your time.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "8cef904",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_color": "#181818"
+      },
+      "elements": [
+        {
+          "id": "2adee42",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Four steps from valuation to handover.",
+            "header_size": "h2",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 52
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "110e2cb",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Step 01 — Tell us the car",
+            "header_size": "h3",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 22
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "f3e4adf",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Send model, year, mileage, ownership history, service records, and specification highlights.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "83f4631",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Step 02 — Receive valuation",
+            "header_size": "h3",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 22
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "a6b4f55",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>We compare market data and condition factors to recommend a realistic selling range.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "a6444e1",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Step 03 — Approve strategy",
+            "header_size": "h3",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 22
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "a85587f",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Choose discreet sourcing, public listing, or a direct buyer approach.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "f3d6403",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Step 04 — Complete securely",
+            "header_size": "h3",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 22
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "53866c2",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>We coordinate viewing, negotiation, payment, paperwork, and handover logistics.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "dbc5803",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 48
+        },
+        "flex_wrap": "wrap",
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": [
+        {
+          "id": "176bf65",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 72,
+              "right": 48,
+              "bottom": 72,
+              "left": 48,
+              "isLinked": false,
+              "unit_tablet": "px",
+              "unit_mobile": "px"
+            },
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "width": {
+              "unit": "%",
+              "size": 46,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "0f7cd03",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sell without losing control of the car or the deal.",
+                "header_size": "h2",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 50
+                },
+                "title_color": "#181818"
+              },
+              "elements": []
+            },
+            {
+              "id": "3e18cea",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<ul><li>Accurate market guidance</li><li>Premium presentation</li><li>Buyer qualification</li></ul>",
+                "text_color": "#5d5954"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "73a867e",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 32,
+              "right": 32,
+              "bottom": 32,
+              "left": 32,
+              "isLinked": false
+            },
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "width": {
+              "unit": "%",
+              "size": 54,
+              "sizes": []
+            },
+            "background_background": "classic",
+            "background_color": "#fffffb"
+          },
+          "elements": [
+            {
+              "id": "2857dad",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Request a valuation",
+                "header_size": "h2",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "title_color": "#181818"
+              },
+              "elements": []
+            },
+            {
+              "id": "37bd9c3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "[WPForms id=\"SELL_VALUATION\"]",
+                "text_color": "#5d5954"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3e11253",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_color": "#181818"
+      },
+      "elements": [
+        {
+          "id": "6b3286e",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Questions sellers ask first.",
+            "header_size": "h2",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 50
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "774297b",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Do you buy cars directly?",
+            "header_size": "h3",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 22
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "77e0ca1",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>For suitable stock we can make a direct purchase offer or recommend a brokered route.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "1285ecb",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Can you handle finance settlement?",
+            "header_size": "h3",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 22
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "a592102",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Existing finance can be accounted for during the transaction and coordinated through completion.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "474293d",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Do you work with modified cars?",
+            "header_size": "h3",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 22
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "921cd7a",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Yes, where modifications are documented, legal, and appropriate for the target buyer.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}
