@@ -1,1 +1,1084 @@
-{"version":"0.4","title":"Flash Cars — Sell Your Car","type":"page","content":[{"elType":"container","id":"sell-hero","isInner":false,"settings":{"padding":{"top":"104","right":"48","bottom":"72","left":"48","unit":"px"},"padding_tablet":{"top":"80","right":"32","bottom":"56","left":"32","unit":"px"},"padding_mobile":{"top":"72","right":"16","bottom":"48","left":"16","unit":"px"},"background_color":"#da291c"},"elements":[{"elType":"widget","id":"sell-title","widgetType":"heading","settings":{"title":"Sell Your Car","header_size":"h1","typography_font_size":{"unit":"px","size":64},"typography_font_size_tablet":{"unit":"px","size":50},"typography_font_size_mobile":{"unit":"px","size":38}}},{"elType":"widget","id":"sell-copy","widgetType":"text-editor","settings":{"editor":"Tell us about your car and our team will review the specification, condition, and provenance.","typography_font_size":{"unit":"px","size":18},"typography_font_size_mobile":{"unit":"px","size":16}}}]},{"elType":"container","id":"sell-form-area","isInner":false,"settings":{"display_grid":true,"grid_template_columns":"46% 54%","grid_template_columns_tablet":"1fr","grid_template_columns_mobile":"1fr","gap":{"size":40,"unit":"px"},"padding":{"top":"72","right":"48","bottom":"80","left":"48","unit":"px"},"padding_tablet":{"top":"56","right":"32","bottom":"64","left":"32","unit":"px"},"padding_mobile":{"top":"48","right":"16","bottom":"56","left":"16","unit":"px"}},"elements":[{"elType":"widget","id":"sell-form-intro","widgetType":"text-editor","settings":{"editor":"Request a valuation","typography_font_size":{"unit":"px","size":32},"typography_font_size_tablet":{"unit":"px","size":28},"typography_font_size_mobile":{"unit":"px","size":25}}},{"elType":"widget","id":"sell-form","widgetType":"shortcode","settings":{"shortcode":"[wpforms id=\"REPLACE_SELL_FORM_ID\"]"}}]},{"elType":"container","id":"sell-faq","isInner":false,"settings":{"padding":{"top":"64","right":"48","bottom":"72","left":"48","unit":"px"},"padding_tablet":{"top":"52","right":"32","bottom":"56","left":"32","unit":"px"},"padding_mobile":{"top":"44","right":"16","bottom":"48","left":"16","unit":"px"},"background_color":"#181818"},"elements":[{"elType":"widget","id":"faq-title","widgetType":"heading","settings":{"title":"Frequently Asked Questions","header_size":"h2","typography_font_size":{"unit":"px","size":42},"typography_font_size_mobile":{"unit":"px","size":30}}},{"elType":"widget","id":"faq-copy","widgetType":"text-editor","settings":{"editor":"FAQ accordion placeholder — build with the site's accordion/native widget after import if available.","typography_font_size":{"unit":"px","size":17},"typography_font_size_mobile":{"unit":"px","size":16}}}]}
+{
+  "title": "Flash Cars — Sell Your Car",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes"
+  },
+  "content": [
+    {
+      "id": "0000003",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "108",
+          "right": "48",
+          "bottom": "88",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "84",
+          "right": "32",
+          "bottom": "72",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "72",
+          "right": "16",
+          "bottom": "58",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#da291c",
+        "min_height": {
+          "unit": "vh",
+          "size": 52
+        },
+        "min_height_tablet": {
+          "unit": "vh",
+          "size": 46
+        },
+        "min_height_mobile": {
+          "unit": "vh",
+          "size": 42
+        }
+      },
+      "elements": [
+        {
+          "id": "0000001",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "heading",
+          "settings": {
+            "title": "A better exit for rare cars and serious owners.",
+            "header_size": "h1",
+            "title_color": "#fffffb",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 76
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.05
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "0000002",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Get an informed valuation, a clear route to market, and buyer handling that protects your time.</p>",
+            "text_color": "#b4b0ab",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 20
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "0000017",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "78",
+          "right": "48",
+          "bottom": "86",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "62",
+          "right": "32",
+          "bottom": "72",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "50",
+          "right": "16",
+          "bottom": "60",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": [
+        {
+          "id": "0000004",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "heading",
+          "settings": {
+            "title": "Four steps from valuation to handover.",
+            "header_size": "h2",
+            "title_color": "#181818",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 44
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 34
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.05
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "0000005",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Understand the car, price it accurately, present it properly, and complete securely.</p>",
+            "text_color": "#5d5954",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 17
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "0000012",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_gap": {
+              "column": "24",
+              "row": "24",
+              "isLinked": true,
+              "unit": "px",
+              "size": 24
+            },
+            "flex_wrap": "wrap",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_direction_mobile": "column"
+          },
+          "elements": [
+            {
+              "id": "0000013",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "18",
+                  "row": "18",
+                  "isLinked": true,
+                  "unit": "px",
+                  "size": 18
+                },
+                "flex_wrap": "",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000006",
+                  "elType": "widget",
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Step 01",
+                    "header_size": "h2",
+                    "title_color": "#da291c",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Manrope",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.05
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0000007",
+                  "elType": "widget",
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Tell us the car",
+                    "header_size": "h2",
+                    "title_color": "#181818",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Manrope",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.05
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0000008",
+                  "elType": "widget",
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Model, year, mileage, ownership, service records, and specification.</p>",
+                    "text_color": "#5d5954",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Manrope",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "0000014",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "18",
+                  "row": "18",
+                  "isLinked": true,
+                  "unit": "px",
+                  "size": 18
+                },
+                "flex_wrap": "",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "0000009",
+                  "elType": "widget",
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Step 02",
+                    "header_size": "h2",
+                    "title_color": "#da291c",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Manrope",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.05
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "000000a",
+                  "elType": "widget",
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Receive valuation",
+                    "header_size": "h2",
+                    "title_color": "#181818",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Manrope",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.05
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "000000b",
+                  "elType": "widget",
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>A realistic range informed by market data and condition factors.</p>",
+                    "text_color": "#5d5954",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Manrope",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "0000015",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "18",
+                  "row": "18",
+                  "isLinked": true,
+                  "unit": "px",
+                  "size": 18
+                },
+                "flex_wrap": "",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "000000c",
+                  "elType": "widget",
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Step 03",
+                    "header_size": "h2",
+                    "title_color": "#da291c",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Manrope",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.05
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "000000d",
+                  "elType": "widget",
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Approve strategy",
+                    "header_size": "h2",
+                    "title_color": "#181818",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Manrope",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.05
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "000000e",
+                  "elType": "widget",
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Choose discreet sourcing, public listing, or a direct buyer approach.</p>",
+                    "text_color": "#5d5954",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Manrope",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "0000016",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": {
+                  "column": "18",
+                  "row": "18",
+                  "isLinked": true,
+                  "unit": "px",
+                  "size": 18
+                },
+                "flex_wrap": "",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25
+                },
+                "width_tablet": {
+                  "unit": "%",
+                  "size": 50
+                },
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": [
+                {
+                  "id": "000000f",
+                  "elType": "widget",
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Step 04",
+                    "header_size": "h2",
+                    "title_color": "#da291c",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Manrope",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 17
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.05
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0000010",
+                  "elType": "widget",
+                  "isInner": false,
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Complete securely",
+                    "header_size": "h2",
+                    "title_color": "#181818",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Manrope",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 20
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 18
+                    },
+                    "typography_font_weight": "500",
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.05
+                    }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "0000011",
+                  "elType": "widget",
+                  "isInner": false,
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Viewing, negotiation, payment, paperwork, and handover.</p>",
+                    "text_color": "#5d5954",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Manrope",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 16
+                    },
+                    "typography_font_size_tablet": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_font_size_mobile": {
+                      "unit": "px",
+                      "size": 15
+                    },
+                    "typography_line_height": {
+                      "unit": "em",
+                      "size": 1.55
+                    }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "000001d",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_gap": {
+          "column": "40",
+          "row": "40",
+          "isLinked": true,
+          "unit": "px",
+          "size": 40
+        },
+        "flex_wrap": "wrap",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "48",
+          "bottom": "88",
+          "left": "48",
+          "isLinked": false
+        },
+        "flex_direction_mobile": "column",
+        "flex_direction_tablet": "column",
+        "padding_tablet": {
+          "unit": "px",
+          "top": "20",
+          "right": "32",
+          "bottom": "72",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "16",
+          "right": "16",
+          "bottom": "60",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": [
+        {
+          "id": "0000019",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "16",
+              "row": "16",
+              "isLinked": true,
+              "unit": "px",
+              "size": 16
+            },
+            "flex_wrap": "",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 46
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "0000018",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Sell without losing control of the car or the deal.",
+                "header_size": "h2",
+                "title_color": "#181818",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 52
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.05
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "000001c",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "16",
+              "row": "16",
+              "isLinked": true,
+              "unit": "px",
+              "size": 16
+            },
+            "flex_wrap": "",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 54
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "000001a",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Request a valuation</p>",
+                "text_color": "#5d5954",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.55
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "000001b",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "shortcode",
+              "settings": {
+                "shortcode": "[wpforms id=\"REPLACE_SELL_FORM_ID\"]"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "0000020",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "72",
+          "right": "48",
+          "bottom": "80",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "58",
+          "right": "32",
+          "bottom": "68",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "48",
+          "right": "16",
+          "bottom": "58",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#181818"
+      },
+      "elements": [
+        {
+          "id": "000001e",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "heading",
+          "settings": {
+            "title": "Questions sellers ask first.",
+            "header_size": "h2",
+            "title_color": "#fffffb",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 44
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 34
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.05
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "000001f",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Do you buy cars directly? Yes, for suitable stock we can make a direct purchase offer or recommend a brokered route.\\n\\nCan you handle finance settlement? Existing finance can be accounted for during completion.\\n\\nDo you work with modified cars? Yes, when modifications are documented and appropriate for the target buyer.</p>",
+            "text_color": "#b4b0ab",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 17
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 15
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            }
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}
