@@ -1,0 +1,302 @@
+{
+  "title": "Flash Cars — Contact",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "ff6da12",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 110,
+          "right": 48,
+          "bottom": 100,
+          "left": 48,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1800&q=82",
+          "id": 0
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#10100f",
+        "background_overlay_opacity": 0.66,
+        "min_height": {
+          "unit": "vh",
+          "size": 58,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "5d9885a",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Contact Flash Cars",
+            "header_size": "h6",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "title_color": "#da291c"
+          },
+          "elements": []
+        },
+        {
+          "id": "b936c37",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Start with the car. We will handle the next move.",
+            "header_size": "h1",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 72
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "77ed025",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Send an inquiry, book a viewing, or ask for current market guidance on Ferrari, Lamborghini, and other supercars.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "4e79873",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 48
+        },
+        "flex_wrap": "wrap",
+        "background_background": "classic",
+        "background_color": "#181818"
+      },
+      "elements": [
+        {
+          "id": "3905d4f",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 72,
+              "right": 48,
+              "bottom": 72,
+              "left": 48,
+              "isLinked": false,
+              "unit_tablet": "px",
+              "unit_mobile": "px"
+            },
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "width": {
+              "unit": "%",
+              "size": 60,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "565ef6b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Make an inquiry",
+                "header_size": "h2",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "title_color": "#fffffb"
+              },
+              "elements": []
+            },
+            {
+              "id": "316deeb",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "[WPForms id=\"CONTACT_INQUIRY\"]",
+                "text_color": "#b4b0ab"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "86ec2d0",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 72,
+              "right": 48,
+              "bottom": 72,
+              "left": 48,
+              "isLinked": false,
+              "unit_tablet": "px",
+              "unit_mobile": "px"
+            },
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "width": {
+              "unit": "%",
+              "size": 40,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "a4afd6d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Dealership information",
+                "header_size": "h3",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "title_color": "#fffffb"
+              },
+              "elements": []
+            },
+            {
+              "id": "ef84c1f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>Flash Cars</strong><br>21 Velocity House, Park Lane, London W1K 7AA<br>+44 20 1234 5678<br>hello@flashcars.example</p>",
+                "text_color": "#b4b0ab"
+              },
+              "elements": []
+            },
+            {
+              "id": "df5d089",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Business hours",
+                "header_size": "h3",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "title_color": "#fffffb"
+              },
+              "elements": []
+            },
+            {
+              "id": "35524f2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Monday to Friday — 09:00 to 18:00<br>Saturday — 10:00 to 16:00<br>Sunday — By appointment</p>",
+                "text_color": "#b4b0ab"
+              },
+              "elements": []
+            },
+            {
+              "id": "89ec82b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Map placeholder",
+                "header_size": "h3",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "title_color": "#fffffb"
+              },
+              "elements": []
+            },
+            {
+              "id": "e4a1d8b",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Replace with an Elementor map widget or embed after import.</p>",
+                "text_color": "#b4b0ab"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
