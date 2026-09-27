@@ -1,0 +1,38 @@
+{
+  "design_tokens": {
+    "colors": {
+      "rosso": "#da291c",
+      "ink": "#fffffb",
+      "body": "#b4b0ab",
+      "muted": "#85817b",
+      "canvas": "#181818",
+      "elevated": "#303030",
+      "deep": "#10100f",
+      "light": "#fffffb",
+      "soft": "#f4f1ec",
+      "line": "#333331",
+      "line_light": "#d9d5ce",
+      "text_light": "#181818"
+    },
+    "font": {
+      "family": "Manrope",
+      "fallback": "-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif"
+    },
+    "layout": {
+      "max_width_px": 1280,
+      "desktop_padding_px": 48,
+      "tablet_padding_px": 32,
+      "mobile_padding_px": 16
+    },
+    "responsive_breakpoints_px": {
+      "mobile": 640,
+      "tablet": 1040
+    }
+  },
+  "builder_rules": {
+    "containers_only": true,
+    "inner_sections": false,
+    "atomic_elements": false,
+    "elementor_pro_widgets": false
+  }
+}
