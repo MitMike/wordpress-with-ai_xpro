@@ -1,1 +1,469 @@
-{"version":"0.4","title":"Flash Cars — Contact","type":"page","content":[{"elType":"container","id":"contact-hero","isInner":false,"settings":{"padding":{"top":"104","right":"48","bottom":"72","left":"48","unit":"px"},"padding_tablet":{"top":"80","right":"32","bottom":"56","left":"32","unit":"px"},"padding_mobile":{"top":"72","right":"16","bottom":"48","left":"16","unit":"px"},"background_color":"#181818"},"elements":[{"elType":"widget","id":"contact-title","widgetType":"heading","settings":{"title":"Contact Flash Cars","header_size":"h1","typography_font_size":{"unit":"px","size":64},"typography_font_size_tablet":{"unit":"px","size":50},"typography_font_size_mobile":{"unit":"px","size":38}}},{"elType":"widget","id":"contact-copy","widgetType":"text-editor","settings":{"editor":"Talk to the team about a vehicle, valuation, finance, or a visit.","typography_font_size":{"unit":"px","size":18},"typography_font_size_mobile":{"unit":"px","size":16}}}]},{"elType":"container","id":"contact-main","isInner":false,"settings":{"display_grid":true,"grid_template_columns":"60% 40%","grid_template_columns_tablet":"1fr","grid_template_columns_mobile":"1fr","gap":{"size":40,"unit":"px"},"padding":{"top":"72","right":"48","bottom":"80","left":"48","unit":"px"},"padding_tablet":{"top":"56","right":"32","bottom":"64","left":"32","unit":"px"},"padding_mobile":{"top":"48","right":"16","bottom":"56","left":"16","unit":"px"}},"elements":[{"elType":"widget","id":"contact-form","widgetType":"shortcode","settings":{"shortcode":"[wpforms id=\"REPLACE_CONTACT_FORM_ID\"]"}},{"elType":"widget","id":"contact-details","widgetType":"text-editor","settings":{"editor":"21 Velocity House, Park Lane, London W1K 7AA\n+44 20 1234 5678\nhello@flashcars.example\n\nBusiness hours: Mon–Sat, 9:00–18:00","typography_font_size":{"unit":"px","size":17},"typography_font_size_tablet":{"unit":"px","size":16},"typography_font_size_mobile":{"unit":"px","size":16}}}]},{"elType":"container","id":"contact-map","isInner":false,"settings":{"min_height":{"unit":"px","size":360},"min_height_tablet":{"unit":"px","size":300},"min_height_mobile":{"unit":"px","size":240},"padding":{"top":"48","right":"48","bottom":"48","left":"48","unit":"px"},"padding_tablet":{"top":"32","right":"32","bottom":"32","left":"32","unit":"px"},"padding_mobile":{"top":"24","right":"16","bottom":"24","left":"16","unit":"px"},"background_color":"#eeeeea"},"elements":[{"elType":"widget","id":"map-note","widgetType":"text-editor","settings":{"editor":"Map placeholder — insert preferred map/embed widget after import."}}]}
+{
+  "title": "Flash Cars — Contact",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes"
+  },
+  "content": [
+    {
+      "id": "0000003",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "108",
+          "right": "48",
+          "bottom": "92",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "86",
+          "right": "32",
+          "bottom": "72",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "74",
+          "right": "16",
+          "bottom": "60",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://images.unsplash.com/photo-1549924231-f129b911e442?auto=format&fit=crop&w=1800&q=82",
+          "id": ""
+        },
+        "background_size": "cover",
+        "background_position": "center center",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#10100f",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.68
+        },
+        "min_height": {
+          "unit": "vh",
+          "size": 58
+        },
+        "min_height_tablet": {
+          "unit": "vh",
+          "size": 52
+        },
+        "min_height_mobile": {
+          "unit": "vh",
+          "size": 46
+        }
+      },
+      "elements": [
+        {
+          "id": "0000001",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "heading",
+          "settings": {
+            "title": "Start with the car. We will handle the next move.",
+            "header_size": "h1",
+            "title_color": "#fffffb",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 76
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.05
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "0000002",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Send an inquiry, book a viewing, or ask for current market guidance on Ferrari, Lamborghini, and other supercars.</p>",
+            "text_color": "#b4b0ab",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 20
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "000000a",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "row",
+        "flex_gap": {
+          "column": "40",
+          "row": "40",
+          "isLinked": true,
+          "unit": "px",
+          "size": 40
+        },
+        "flex_wrap": "wrap",
+        "padding": {
+          "unit": "px",
+          "top": "78",
+          "right": "48",
+          "bottom": "84",
+          "left": "48",
+          "isLinked": false
+        },
+        "flex_direction_mobile": "column",
+        "flex_direction_tablet": "column",
+        "padding_tablet": {
+          "unit": "px",
+          "top": "62",
+          "right": "32",
+          "bottom": "70",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "50",
+          "right": "16",
+          "bottom": "60",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": [
+        {
+          "id": "0000006",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "18",
+              "row": "18",
+              "isLinked": true,
+              "unit": "px",
+              "size": 18
+            },
+            "flex_wrap": "",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 60
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "0000004",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Make an inquiry",
+                "header_size": "h2",
+                "title_color": "#181818",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 52
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 42
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.05
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "0000005",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "shortcode",
+              "settings": {
+                "shortcode": "[wpforms id=\"REPLACE_CONTACT_FORM_ID\"]"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "0000009",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "18",
+              "row": "18",
+              "isLinked": true,
+              "unit": "px",
+              "size": 18
+            },
+            "flex_wrap": "",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 40
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "0000007",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "Dealership information",
+                "header_size": "h2",
+                "title_color": "#181818",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 22
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.05
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "0000008",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>21 Velocity House, Park Lane, London W1K 7AA<br>+44 20 1234 5678<br>hello@flashcars.example<br><br>Monday–Friday: 09:00–18:00<br>Saturday: 10:00–16:00<br>Sunday: By appointment</p>",
+                "text_color": "#5d5954",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.55
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "000000d",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "64",
+          "right": "48",
+          "bottom": "72",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "52",
+          "right": "32",
+          "bottom": "60",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "44",
+          "right": "16",
+          "bottom": "52",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#181818"
+      },
+      "elements": [
+        {
+          "id": "000000b",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "heading",
+          "settings": {
+            "title": "Park Lane showroom",
+            "header_size": "h2",
+            "title_color": "#fffffb",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 44
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 30
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.05
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "000000c",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Map placeholder — insert your preferred Google Maps or map widget after import.</p>",
+            "text_color": "#b4b0ab",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 17
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 15
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            }
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}
