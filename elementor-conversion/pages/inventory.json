@@ -1,0 +1,1024 @@
+{
+  "title": "Flash Cars — Inventory",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "ddabc65",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 110,
+          "right": 48,
+          "bottom": 100,
+          "left": 48,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1800&q=82",
+          "id": 0
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#10100f",
+        "background_overlay_opacity": 0.66,
+        "min_height": {
+          "unit": "vh",
+          "size": 58,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "9a479cc",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Current inventory",
+            "header_size": "h6",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "title_color": "#da291c"
+          },
+          "elements": []
+        },
+        {
+          "id": "41f98f1",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Ferrari, Lamborghini, and exceptional supercars ready for inquiry.",
+            "header_size": "h1",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 72
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "ca1cf42",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Filterable inventory from the source design has been converted into individual editable Elementor vehicle cards.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "b047d84",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": [
+        {
+          "id": "2b62c2b",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Current inventory",
+            "header_size": "h2",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 52
+            },
+            "title_color": "#181818"
+          },
+          "elements": []
+        },
+        {
+          "id": "3633d18",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>The original HTML used JavaScript filters. This conversion keeps every listing editable in Elementor; dynamic filtering should be implemented separately through WordPress rather than a monolithic HTML widget.</p>",
+            "text_color": "#5d5954"
+          },
+          "elements": []
+        },
+        {
+          "id": "2e979b9",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 72,
+              "right": 48,
+              "bottom": 72,
+              "left": 48,
+              "isLinked": false,
+              "unit_tablet": "px",
+              "unit_mobile": "px"
+            },
+            "flex_direction": "row",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 1
+            },
+            "flex_wrap": "wrap",
+            "background_background": "classic",
+            "background_color": "#333331"
+          },
+          "elements": [
+            {
+              "id": "3d9390f",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "b2738d2",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=1100&q=82",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "image_alt": "Ferrari F8 Tributo",
+                    "object_fit": "cover"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "69fc6c7",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Ferrari F8 Tributo",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "40128ed",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>$338,000</strong></p><p>2022 · 4,900 mi · 710 hp</p>",
+                    "text_color": "#da291c"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "18346f0",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Inquire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#da291c"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "6945827",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "a515cb9",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1519245659620-e859806a8d3b?auto=format&fit=crop&w=1100&q=82",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "image_alt": "Lamborghini Huracan EVO",
+                    "object_fit": "cover"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e5f7652",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Lamborghini Huracan EVO",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "3459be8",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>$289,000</strong></p><p>2021 · 6,200 mi · 631 hp</p>",
+                    "text_color": "#da291c"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "db4fcbc",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Inquire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#da291c"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "f7c16ba",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "b11708f",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=1100&q=82",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "image_alt": "McLaren 720S Performance",
+                    "object_fit": "cover"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "7071533",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "McLaren 720S Performance",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "2c3af81",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>$274,000</strong></p><p>2020 · 8,100 mi · 710 hp</p>",
+                    "text_color": "#da291c"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "162e2a5",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Inquire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#da291c"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "6bb0111",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "984b1b6",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1611859266238-4b98091d9d9b?auto=format&fit=crop&w=1100&q=82",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "image_alt": "Porsche 911 GT3 RS",
+                    "object_fit": "cover"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6f260bc",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Porsche 911 GT3 RS",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "02fe0fe",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>$246,000</strong></p><p>2024 · 900 mi · 518 hp</p>",
+                    "text_color": "#da291c"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "78ca06f",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Inquire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#da291c"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "4b867ec",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "7115e9a",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?auto=format&fit=crop&w=1100&q=82",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "image_alt": "Ferrari 296 GTB",
+                    "object_fit": "cover"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "9afd018",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Ferrari 296 GTB",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "40d9f9c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>$412,000</strong></p><p>2024 · 1,300 mi · 819 hp</p>",
+                    "text_color": "#da291c"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "63e39c0",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Inquire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#da291c"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "6e0c50f",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "d96f9d7",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1606220838315-056192d5e927?auto=format&fit=crop&w=1100&q=82",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "image_alt": "Aston Martin DBS Superleggera",
+                    "object_fit": "cover"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "e10e469",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Aston Martin DBS Superleggera",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "46d1701",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>$232,000</strong></p><p>2022 · 7,400 mi · 715 hp</p>",
+                    "text_color": "#da291c"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "aa996af",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Inquire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#da291c"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "f6d430f",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "2ac57c1",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1600712242805-5f78671b24da?auto=format&fit=crop&w=1100&q=82",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "image_alt": "Lamborghini Urus Performante",
+                    "object_fit": "cover"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "a7cf42d",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Lamborghini Urus Performante",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "83554fd",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>$318,000</strong></p><p>2023 · 3,800 mi · 657 hp</p>",
+                    "text_color": "#da291c"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "6522870",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Inquire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#da291c"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "002bdb5",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24,
+                  "isLinked": false
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "1959467",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": {
+                      "url": "https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9?auto=format&fit=crop&w=1100&q=82",
+                      "id": 0
+                    },
+                    "image_size": "full",
+                    "image_alt": "Bentley Continental GT Speed",
+                    "object_fit": "cover"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d37855e",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Bentley Continental GT Speed",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "b54a9a2",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>$219,000</strong></p><p>2022 · 9,600 mi · 650 hp</p>",
+                    "text_color": "#da291c"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "d12ce52",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Inquire",
+                    "link": {
+                      "url": "/contact/",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    },
+                    "size": "md",
+                    "button_text_color": "#fffffb",
+                    "background_color": "#da291c"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a8e727b",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_color": "#181818"
+      },
+      "elements": [
+        {
+          "id": "35de30a",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Need a specific car?",
+            "header_size": "h2",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 44
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "68e66fd",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Contact Flash Cars for off-market Ferrari, Lamborghini, and other supercar sourcing.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "024e4d1",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Contact Flash Cars",
+            "link": {
+              "url": "/contact/",
+              "is_external": "",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "size": "md",
+            "button_text_color": "#fffffb",
+            "background_color": "#da291c"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}
