@@ -1,0 +1,709 @@
+{
+  "title": "Flash Cars — About",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "07d30af",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 110,
+          "right": 48,
+          "bottom": 100,
+          "left": 48,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1800&q=82",
+          "id": 0
+        },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#10100f",
+        "background_overlay_opacity": 0.66,
+        "min_height": {
+          "unit": "vh",
+          "size": 58,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "57a5fa6",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "About Flash Cars",
+            "header_size": "h6",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 12
+            },
+            "title_color": "#da291c"
+          },
+          "elements": []
+        },
+        {
+          "id": "4d925ba",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "A specialist supercar broker built around clarity.",
+            "header_size": "h1",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 72
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "a36115c",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>We help serious buyers and sellers move confidently in a market where condition, timing, and trust matter.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "d443f10",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "row",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 48
+        },
+        "flex_wrap": "wrap",
+        "background_background": "classic",
+        "background_color": "#181818"
+      },
+      "elements": [
+        {
+          "id": "4e5361a",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 72,
+              "right": 48,
+              "bottom": 72,
+              "left": 48,
+              "isLinked": false,
+              "unit_tablet": "px",
+              "unit_mobile": "px"
+            },
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "width": {
+              "unit": "%",
+              "size": 55,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "725f6c2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Born from the gap between classified chaos and dealer theatre.",
+                "header_size": "h2",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 52
+                },
+                "title_color": "#fffffb"
+              },
+              "elements": []
+            },
+            {
+              "id": "f2111d4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Flash Cars began with a simple problem: supercar buyers wanted better verification, and sellers wanted better presentation without losing control of the deal.</p><p>Today we operate as a focused buying and selling partner for new and used supercars.</p>",
+                "text_color": "#b4b0ab"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "609457f",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 72,
+              "right": 48,
+              "bottom": 72,
+              "left": 48,
+              "isLinked": false,
+              "unit_tablet": "px",
+              "unit_mobile": "px"
+            },
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 24
+            },
+            "width": {
+              "unit": "%",
+              "size": 45,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "fdc8a16",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "https://images.unsplash.com/photo-1535732820275-9ffd998cac22?auto=format&fit=crop&w=1400&q=82",
+                  "id": 0
+                },
+                "image_size": "full",
+                "image_alt": "Supercar steering wheel and dashboard detail",
+                "object_fit": "cover"
+              },
+              "elements": []
+            },
+            {
+              "id": "da21499",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><strong>The details decide value.</strong></p>",
+                "text_color": "#fffffb"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f84df5f",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_color": "#181818"
+      },
+      "elements": [
+        {
+          "id": "71615fd",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Mission",
+            "header_size": "h3",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 24
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "1bbb9ad",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Make buying and selling supercars faster, safer, and more transparent.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "d0375e7",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Values",
+            "header_size": "h3",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 24
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "65e0130",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Precision, discretion, accurate pricing, careful communication, and respect for the machinery.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "cf365ec",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Difference",
+            "header_size": "h3",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 24
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "e8642e7",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>We qualify the car and the person before travel, negotiation, or commitment.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "a9767b3",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 72,
+          "right": 48,
+          "bottom": 72,
+          "left": 48,
+          "isLinked": false,
+          "unit_tablet": "px",
+          "unit_mobile": "px"
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": [
+        {
+          "id": "d11df00",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "What sets us apart.",
+            "header_size": "h2",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 52
+            },
+            "title_color": "#181818"
+          },
+          "elements": []
+        },
+        {
+          "id": "e1e509c",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Fewer distractions, stronger checks, better conversations.</p>",
+            "text_color": "#5d5954"
+          },
+          "elements": []
+        },
+        {
+          "id": "714ccd0",
+          "elType": "container",
+          "isInner": false,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1280,
+              "sizes": []
+            },
+            "padding": {
+              "unit": "px",
+              "top": 72,
+              "right": 48,
+              "bottom": 72,
+              "left": 48,
+              "isLinked": false,
+              "unit_tablet": "px",
+              "unit_mobile": "px"
+            },
+            "flex_direction": "row",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "stretch",
+            "gap": {
+              "unit": "px",
+              "size": 1
+            },
+            "flex_wrap": "wrap"
+          },
+          "elements": [
+            {
+              "id": "37bcb81",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 72,
+                  "right": 48,
+                  "bottom": 72,
+                  "left": 48,
+                  "isLinked": false,
+                  "unit_tablet": "px",
+                  "unit_mobile": "px"
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "1224ddf",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Verified provenance",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "4e03406",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Ownership, service, finance, mileage, and specification checks.</p>",
+                    "text_color": "#5d5954"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "8cedad6",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 72,
+                  "right": 48,
+                  "bottom": 72,
+                  "left": 48,
+                  "isLinked": false,
+                  "unit_tablet": "px",
+                  "unit_mobile": "px"
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "25b5f68",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Market-led pricing",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "01f9f82",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Valuations reference real demand, comparable stock, and specification quality.</p>",
+                    "text_color": "#5d5954"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "ad73f7e",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 72,
+                  "right": 48,
+                  "bottom": 72,
+                  "left": 48,
+                  "isLinked": false,
+                  "unit_tablet": "px",
+                  "unit_mobile": "px"
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "5265159",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Presentation standard",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "981aeee",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Photography, copy, and vehicle details are treated as part of the sales strategy.</p>",
+                    "text_color": "#5d5954"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "d5bf982",
+              "elType": "container",
+              "isInner": false,
+              "settings": {
+                "content_width": "boxed",
+                "boxed_width": {
+                  "unit": "px",
+                  "size": 1280,
+                  "sizes": []
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": 72,
+                  "right": 48,
+                  "bottom": 72,
+                  "left": 48,
+                  "isLinked": false,
+                  "unit_tablet": "px",
+                  "unit_mobile": "px"
+                },
+                "flex_direction": "column",
+                "flex_justify_content": "flex-start",
+                "flex_align_items": "stretch",
+                "gap": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "width": {
+                  "unit": "%",
+                  "size": 25,
+                  "sizes": []
+                },
+                "background_background": "classic",
+                "background_color": "#fffffb"
+              },
+              "elements": [
+                {
+                  "id": "8c8e519",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Qualified inquiries",
+                    "header_size": "h3",
+                    "typography_font_size": {
+                      "unit": "px",
+                      "size": 22
+                    },
+                    "title_color": "#181818"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "11b083c",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>We reduce noise by connecting sellers with buyers who have intent and means.</p>",
+                    "text_color": "#5d5954"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
