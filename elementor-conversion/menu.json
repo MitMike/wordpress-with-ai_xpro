@@ -1,0 +1,32 @@
+{
+  "name": "Flash Cars Primary",
+  "location": "Primary",
+  "homepage_slug": "home",
+  "items": [
+    {
+      "title": "Home",
+      "slug": "home",
+      "url": "/"
+    },
+    {
+      "title": "About",
+      "slug": "about",
+      "url": "/about/"
+    },
+    {
+      "title": "Inventory",
+      "slug": "inventory",
+      "url": "/inventory/"
+    },
+    {
+      "title": "Sell Your Car",
+      "slug": "sell-your-car",
+      "url": "/sell-your-car/"
+    },
+    {
+      "title": "Contact",
+      "slug": "contact",
+      "url": "/contact/"
+    }
+  ]
+}
