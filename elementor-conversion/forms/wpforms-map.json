@@ -1,0 +1,125 @@
+{
+  "home_search": {
+    "title": "Flash Cars — Find Your Next Car",
+    "fields": [
+      {
+        "name": "make",
+        "type": "select",
+        "label": "Make",
+        "choices": [
+          "Any make",
+          "Ferrari",
+          "Lamborghini",
+          "McLaren",
+          "Porsche"
+        ]
+      },
+      {
+        "name": "budget",
+        "type": "select",
+        "label": "Budget",
+        "choices": [
+          "Any budget",
+          "$150k to $250k",
+          "$250k to $400k",
+          "$400k+"
+        ]
+      },
+      {
+        "name": "name",
+        "type": "text",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "name": "email",
+        "type": "email",
+        "label": "Email",
+        "required": true
+      }
+    ]
+  },
+  "sell_valuation": {
+    "title": "Flash Cars — Vehicle Valuation",
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "name": "email",
+        "type": "email",
+        "label": "Email",
+        "required": true
+      },
+      {
+        "name": "make",
+        "type": "text",
+        "label": "Make",
+        "required": true
+      },
+      {
+        "name": "model",
+        "type": "text",
+        "label": "Model",
+        "required": true
+      },
+      {
+        "name": "year",
+        "type": "number",
+        "label": "Year"
+      },
+      {
+        "name": "mileage",
+        "type": "number",
+        "label": "Mileage"
+      },
+      {
+        "name": "message",
+        "type": "textarea",
+        "label": "Condition and service notes"
+      }
+    ]
+  },
+  "contact_inquiry": {
+    "title": "Flash Cars — Contact Inquiry",
+    "fields": [
+      {
+        "name": "name",
+        "type": "text",
+        "label": "Name",
+        "required": true
+      },
+      {
+        "name": "email",
+        "type": "email",
+        "label": "Email",
+        "required": true
+      },
+      {
+        "name": "phone",
+        "type": "phone",
+        "label": "Phone"
+      },
+      {
+        "name": "topic",
+        "type": "select",
+        "label": "Topic",
+        "choices": [
+          "Buying a supercar",
+          "Selling a supercar",
+          "Book a viewing",
+          "General inquiry"
+        ]
+      },
+      {
+        "name": "message",
+        "type": "textarea",
+        "label": "Message",
+        "required": true
+      }
+    ]
+  }
+}
