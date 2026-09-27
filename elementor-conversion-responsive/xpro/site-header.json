@@ -1,1 +1,372 @@
-{"template_type":"xpro_header","title":"Flash Cars — XPRO Header","content":[{"elType":"container","id":"header-shell","isInner":false,"settings":{"min_height":{"unit":"px","size":84},"min_height_tablet":{"unit":"px","size":76},"min_height_mobile":{"unit":"px","size":68},"padding":{"right":"48","left":"48","unit":"px"},"padding_tablet":{"right":"32","left":"32","unit":"px"},"padding_mobile":{"right":"16","left":"16","unit":"px"},"background_color":"#181818"},"elements":[{"elType":"widget","id":"brand","widgetType":"heading","settings":{"title":"FLASH CARS","header_size":"h5","link":{"url":"/"},"typography_font_size":{"unit":"px","size":18},"typography_font_size_mobile":{"unit":"px","size":16}}},{"elType":"container","id":"nav-links","isInner":false,"settings":{"display_flex":true,"flex_direction":"row","flex_direction_mobile":"column","gap":{"size":28,"unit":"px"},"gap_mobile":{"size":14,"unit":"px"}},"elements":[{"elType":"widget","id":"nav-home","widgetType":"button","settings":{"text":"Home","link":{"url":"/"},"size":"sm"}},{"elType":"widget","id":"nav-about","widgetType":"button","settings":{"text":"About","link":{"url":"/about/"},"size":"sm"}},{"elType":"widget","id":"nav-inventory","widgetType":"button","settings":{"text":"Inventory","link":{"url":"/inventory/"},"size":"sm"}},{"elType":"widget","id":"nav-sell","widgetType":"button","settings":{"text":"Sell Your Car","link":{"url":"/sell-your-car/"},"size":"sm"}},{"elType":"widget","id":"nav-contact","widgetType":"button","settings":{"text":"Contact","link":{"url":"/contact/"},"size":"sm"}}]},{"elType":"widget","id":"header-cta","widgetType":"button","settings":{"text":"View Inventory","link":{"url":"/inventory/"},"size":"sm","width_mobile":{"unit":"%","size":100}}}]}],"assignment_note":"Save/import through XPRO Library and use the installed XPRO navigation/menu controls for final mobile navigation behavior."}
+{
+  "title": "Flash Cars — XPRO Header",
+  "type": "header",
+  "version": "0.4",
+  "page_settings": [],
+  "content": [
+    {
+      "id": "000000b",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_gap": {
+          "column": "12",
+          "row": "12",
+          "isLinked": true,
+          "unit": "px",
+          "size": 12
+        },
+        "flex_wrap": "wrap",
+        "padding": {
+          "unit": "px",
+          "top": "16",
+          "right": "48",
+          "bottom": "16",
+          "left": "48",
+          "isLinked": false
+        },
+        "flex_direction_mobile": "column",
+        "flex_direction_tablet": "column",
+        "padding_tablet": {
+          "unit": "px",
+          "top": "14",
+          "right": "32",
+          "bottom": "14",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "12",
+          "right": "16",
+          "bottom": "12",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#181818"
+      },
+      "elements": [
+        {
+          "id": "0000002",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "24",
+              "row": "24",
+              "isLinked": true,
+              "unit": "px",
+              "size": 24
+            },
+            "flex_wrap": "",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 24
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 30
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "0000001",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "heading",
+              "settings": {
+                "title": "FLASH CARS",
+                "header_size": "h2",
+                "title_color": "#fffffb",
+                "typography_typography": "custom",
+                "typography_font_family": "Manrope",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 18
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_weight": "500",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.05
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "0000008",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "row",
+            "flex_gap": {
+              "column": "8",
+              "row": "8",
+              "isLinked": true,
+              "unit": "px",
+              "size": 8
+            },
+            "flex_wrap": "wrap",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 56
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 70
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_direction_mobile": "column"
+          },
+          "elements": [
+            {
+              "id": "0000003",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Home",
+                "link": {
+                  "url": "/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "size": "lg",
+                "background_color": "transparent",
+                "button_text_color": "#fffffb",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#fffffb"
+              },
+              "elements": []
+            },
+            {
+              "id": "0000004",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "About",
+                "link": {
+                  "url": "/about/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "size": "lg",
+                "background_color": "transparent",
+                "button_text_color": "#fffffb",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#fffffb"
+              },
+              "elements": []
+            },
+            {
+              "id": "0000005",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Inventory",
+                "link": {
+                  "url": "/inventory/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "size": "lg",
+                "background_color": "transparent",
+                "button_text_color": "#fffffb",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#fffffb"
+              },
+              "elements": []
+            },
+            {
+              "id": "0000006",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Sell Your Car",
+                "link": {
+                  "url": "/sell-your-car/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "size": "lg",
+                "background_color": "transparent",
+                "button_text_color": "#fffffb",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#fffffb"
+              },
+              "elements": []
+            },
+            {
+              "id": "0000007",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "Contact",
+                "link": {
+                  "url": "/contact/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "size": "lg",
+                "background_color": "transparent",
+                "button_text_color": "#fffffb",
+                "border_border": "solid",
+                "border_width": {
+                  "unit": "px",
+                  "top": "1",
+                  "right": "1",
+                  "bottom": "1",
+                  "left": "1",
+                  "isLinked": true
+                },
+                "border_color": "#fffffb"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "000000a",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "full",
+            "flex_direction": "column",
+            "flex_gap": {
+              "column": "24",
+              "row": "24",
+              "isLinked": true,
+              "unit": "px",
+              "size": 24
+            },
+            "flex_wrap": "",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            },
+            "width": {
+              "unit": "%",
+              "size": 20
+            },
+            "width_tablet": {
+              "unit": "%",
+              "size": 100
+            },
+            "width_mobile": {
+              "unit": "%",
+              "size": 100
+            }
+          },
+          "elements": [
+            {
+              "id": "0000009",
+              "elType": "widget",
+              "isInner": false,
+              "widgetType": "button",
+              "settings": {
+                "text": "View Inventory",
+                "link": {
+                  "url": "/inventory/",
+                  "is_external": "",
+                  "nofollow": "",
+                  "custom_attributes": ""
+                },
+                "size": "lg",
+                "background_color": "#da291c",
+                "button_text_color": "#fffffb",
+                "width_mobile": {
+                  "unit": "%",
+                  "size": 100
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
