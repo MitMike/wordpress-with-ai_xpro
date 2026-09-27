@@ -1,0 +1,84 @@
+{
+  "title": "Flash Cars — XPRO Site Header",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "352b250",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 12,
+          "right": 48,
+          "bottom": 12,
+          "left": 48,
+          "isLinked": false
+        },
+        "flex_direction": "row",
+        "flex_justify_content": "space-between",
+        "flex_align_items": "center",
+        "gap": {
+          "unit": "px",
+          "size": 20
+        },
+        "flex_wrap": "wrap",
+        "min_height": {
+          "unit": "px",
+          "size": 72,
+          "sizes": []
+        },
+        "background_background": "classic",
+        "background_color": "#181818"
+      },
+      "elements": [
+        {
+          "id": "47d00db",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style='margin:0;font-size:18px;font-weight:800;letter-spacing:.08em;text-transform:uppercase'>◢ Flash Cars</p>",
+            "text_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "1c1c3a5",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p style='margin:0'><a href='/'>Home</a> &nbsp; <a href='/about/'>About</a> &nbsp; <a href='/inventory/'>Inventory</a> &nbsp; <a href='/sell-your-car/'>Sell Your Car</a> &nbsp; <a href='/contact/'>Contact</a></p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "80896a5",
+          "elType": "widget",
+          "widgetType": "button",
+          "settings": {
+            "text": "Get Valuation",
+            "link": {
+              "url": "/sell-your-car/",
+              "is_external": "",
+              "nofollow": "",
+              "custom_attributes": ""
+            },
+            "size": "md",
+            "button_text_color": "#fffffb",
+            "background_color": "#da291c"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}
