@@ -1,0 +1,95 @@
+{
+  "title": "Flash Cars — XPRO Site Footer",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "914cd8b",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": {
+          "unit": "px",
+          "size": 1280,
+          "sizes": []
+        },
+        "padding": {
+          "unit": "px",
+          "top": 64,
+          "right": 48,
+          "bottom": 48,
+          "left": 48,
+          "isLinked": false
+        },
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "stretch",
+        "gap": {
+          "unit": "px",
+          "size": 24
+        },
+        "background_background": "classic",
+        "background_color": "#111110"
+      },
+      "elements": [
+        {
+          "id": "9d32343",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": {
+            "title": "Flash Cars",
+            "header_size": "h3",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 24
+            },
+            "title_color": "#fffffb"
+          },
+          "elements": []
+        },
+        {
+          "id": "dea9330",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Buying and selling new and used supercars with verified provenance, premium presentation, and qualified inquiries.</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "e5963a9",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p><a href='/'>Home</a> · <a href='/about/'>About</a> · <a href='/inventory/'>Inventory</a> · <a href='/sell-your-car/'>Sell Your Car</a> · <a href='/contact/'>Contact</a></p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "859fdd6",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>+44 20 1234 5678 · hello@flashcars.example · Park Lane, London</p>",
+            "text_color": "#b4b0ab"
+          },
+          "elements": []
+        },
+        {
+          "id": "689abb9",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>© Flash Cars. All rights reserved.</p>",
+            "text_color": "#85817b"
+          },
+          "elements": []
+        }
+      ]
+    }
+  ]
+}
