@@ -1,0 +1,13 @@
+{
+  "site_title": "Flash Cars",
+  "homepage_slug": "/",
+  "breakpoints": {"tablet": 1024, "mobile": 640},
+  "global_colors": {
+    "canvas": "#181818",
+    "canvas_light": "#fffffb",
+    "primary": "#da291c",
+    "text": "#b4b0ab",
+    "text_dark": "#181818"
+  },
+  "font_family": "Manrope"
+}
