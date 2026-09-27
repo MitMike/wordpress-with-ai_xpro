@@ -1,1 +1,2171 @@
-{"version":"0.4","title":"Flash Cars — Inventory","type":"page","content":[{"elType":"container","id":"inventory-hero","isInner":false,"settings":{"padding":{"top":"104","right":"48","bottom":"72","left":"48","unit":"px"},"padding_tablet":{"top":"80","right":"32","bottom":"56","left":"32","unit":"px"},"padding_mobile":{"top":"72","right":"16","bottom":"48","left":"16","unit":"px"},"background_color":"#181818"},"elements":[{"elType":"widget","id":"inventory-title","widgetType":"heading","settings":{"title":"Current Inventory","header_size":"h1","typography_font_size":{"unit":"px","size":64},"typography_font_size_tablet":{"unit":"px","size":50},"typography_font_size_mobile":{"unit":"px","size":38}}}]},{"elType":"container","id":"inventory-filters","isInner":false,"settings":{"display_grid":true,"grid_template_columns":"repeat(4,1fr)","grid_template_columns_tablet":"repeat(2,1fr)","grid_template_columns_mobile":"1fr","gap":{"size":16,"unit":"px"},"padding":{"top":"32","right":"48","bottom":"32","left":"48","unit":"px"},"padding_tablet":{"top":"28","right":"32","bottom":"28","left":"32","unit":"px"},"padding_mobile":{"top":"24","right":"16","bottom":"24","left":"16","unit":"px"}},"elements":[{"elType":"widget","id":"filter-make","widgetType":"text-editor","settings":{"editor":"Make select placeholder"}},{"elType":"widget","id":"filter-model","widgetType":"text-editor","settings":{"editor":"Model select placeholder"}},{"elType":"widget","id":"filter-price","widgetType":"text-editor","settings":{"editor":"Price select placeholder"}},{"elType":"widget","id":"filter-year","widgetType":"text-editor","settings":{"editor":"Year select placeholder"}}]},{"elType":"container","id":"inventory-grid","isInner":false,"settings":{"display_grid":true,"grid_template_columns":"repeat(4,1fr)","grid_template_columns_tablet":"repeat(2,1fr)","grid_template_columns_mobile":"1fr","gap":{"size":24,"unit":"px"},"padding":{"top":"16","right":"48","bottom":"72","left":"48","unit":"px"},"padding_tablet":{"top":"16","right":"32","bottom":"56","left":"32","unit":"px"},"padding_mobile":{"top":"8","right":"16","bottom":"48","left":"16","unit":"px"}},"elements":[{"elType":"widget","id":"car-1","widgetType":"image","settings":{"image":{"url":"https://images.unsplash.com/photo-1504215680853-026ed2a45def"},"caption":"Ferrari F8 Tributo — 2022 — $338,000"}},{"elType":"widget","id":"car-2","widgetType":"image","settings":{"image":{"url":"https://images.unsplash.com/photo-1544636331-e26879cd4d9b"},"caption":"Lamborghini Huracan EVO — 2021 — $289,000"}},{"elType":"widget","id":"car-3","widgetType":"image","settings":{"image":{"url":"https://images.unsplash.com/photo-1503376780353-7e6692767b70"},"caption":"McLaren 720S Performance — 2020 — $274,000"}},{"elType":"widget","id":"car-4","widgetType":"image","settings":{"image":{"url":"https://images.unsplash.com/photo-1553440569-bcc63803a83d"},"caption":"Porsche 911 GT3 RS — 2024 — $246,000"}}]}
+{
+  "title": "Flash Cars — Inventory",
+  "type": "page",
+  "version": "0.4",
+  "page_settings": {
+    "hide_title": "yes"
+  },
+  "content": [
+    {
+      "id": "0000003",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "106",
+          "right": "48",
+          "bottom": "88",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "84",
+          "right": "32",
+          "bottom": "70",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "72",
+          "right": "16",
+          "bottom": "58",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=1800&q=82",
+          "id": ""
+        },
+        "background_size": "cover",
+        "background_position": "center center",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#10100f",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.66
+        },
+        "min_height": {
+          "unit": "vh",
+          "size": 58
+        },
+        "min_height_tablet": {
+          "unit": "vh",
+          "size": 52
+        },
+        "min_height_mobile": {
+          "unit": "vh",
+          "size": 46
+        }
+      },
+      "elements": [
+        {
+          "id": "0000001",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "heading",
+          "settings": {
+            "title": "Current Inventory",
+            "header_size": "h1",
+            "title_color": "#fffffb",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 76
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 56
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.05
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "0000002",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Ferrari, Lamborghini, McLaren, Porsche, Aston Martin, and Bentley examples ready for inquiry.</p>",
+            "text_color": "#b4b0ab",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 20
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 18
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "0000006",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "42",
+          "right": "48",
+          "bottom": "36",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "36",
+          "right": "32",
+          "bottom": "32",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "30",
+          "right": "16",
+          "bottom": "28",
+          "left": "16",
+          "isLinked": false
+        },
+        "background_background": "classic",
+        "background_color": "#f4f1ec"
+      },
+      "elements": [
+        {
+          "id": "0000004",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "heading",
+          "settings": {
+            "title": "Filter inventory",
+            "header_size": "h2",
+            "title_color": "#181818",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 42
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 36
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 30
+            },
+            "typography_font_weight": "500",
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.05
+            }
+          },
+          "elements": []
+        },
+        {
+          "id": "0000005",
+          "elType": "widget",
+          "isInner": false,
+          "widgetType": "text-editor",
+          "settings": {
+            "editor": "<p>Source filters: make, model, price, and year. Wire these controls to the destination site's inventory solution after import.</p>",
+            "text_color": "#5d5954",
+            "typography_typography": "custom",
+            "typography_font_family": "Manrope",
+            "typography_font_size": {
+              "unit": "px",
+              "size": 16
+            },
+            "typography_font_size_tablet": {
+              "unit": "px",
+              "size": 15
+            },
+            "typography_font_size_mobile": {
+              "unit": "px",
+              "size": 15
+            },
+            "typography_line_height": {
+              "unit": "em",
+              "size": 1.55
+            }
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "000000e",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "48",
+          "bottom": "24",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "20",
+          "right": "32",
+          "bottom": "20",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "16",
+          "right": "16",
+          "bottom": "16",
+          "left": "16",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": {
+        "id": "000000c",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_gap": {
+            "column": "24",
+            "row": "24",
+            "isLinked": true,
+            "unit": "px",
+            "size": 24
+          },
+          "flex_wrap": "wrap",
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "width": {
+            "unit": "%",
+            "size": 100
+          },
+          "flex_direction_mobile": "column"
+        },
+        "elements": [
+          {
+            "id": "000000d",
+            "elType": "container",
+            "isInner": true,
+            "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_gap": {
+                "column": "18",
+                "row": "18",
+                "isLinked": true,
+                "unit": "px",
+                "size": 18
+              },
+              "flex_wrap": "",
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "width": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_tablet": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_mobile": {
+                "unit": "%",
+                "size": 100
+              }
+            },
+            "elements": [
+              {
+                "id": "0000007",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "image",
+                "settings": {
+                  "image": {
+                    "url": "https://images.unsplash.com/photo-1592198084033-aade902d1aae?auto=format&fit=crop&w=1100&q=82",
+                    "id": ""
+                  },
+                  "image_size": "full",
+                  "alt": "Ferrari F8 Tributo"
+                },
+                "elements": []
+              },
+              {
+                "id": "0000008",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Ferrari F8 Tributo",
+                  "header_size": "h2",
+                  "title_color": "#181818",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 24
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 22
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 20
+                  },
+                  "typography_font_weight": "500",
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.05
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000009",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>$338,000</p>",
+                  "text_color": "#da291c",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 19
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 18
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 17
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "000000a",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>2022 · 4,900 mi · 710 hp</p>",
+                  "text_color": "#5d5954",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 13
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "000000b",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "button",
+                "settings": {
+                  "text": "Inquire",
+                  "link": {
+                    "url": "/contact/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "size": "lg",
+                  "background_color": "#da291c",
+                  "button_text_color": "#fffffb",
+                  "width_mobile": {
+                    "unit": "%",
+                    "size": 100
+                  }
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "0000016",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "48",
+          "bottom": "24",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "20",
+          "right": "32",
+          "bottom": "20",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "16",
+          "right": "16",
+          "bottom": "16",
+          "left": "16",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": {
+        "id": "0000014",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_gap": {
+            "column": "24",
+            "row": "24",
+            "isLinked": true,
+            "unit": "px",
+            "size": 24
+          },
+          "flex_wrap": "wrap",
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "width": {
+            "unit": "%",
+            "size": 100
+          },
+          "flex_direction_mobile": "column"
+        },
+        "elements": [
+          {
+            "id": "0000015",
+            "elType": "container",
+            "isInner": true,
+            "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_gap": {
+                "column": "18",
+                "row": "18",
+                "isLinked": true,
+                "unit": "px",
+                "size": 18
+              },
+              "flex_wrap": "",
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "width": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_tablet": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_mobile": {
+                "unit": "%",
+                "size": 100
+              }
+            },
+            "elements": [
+              {
+                "id": "000000f",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "image",
+                "settings": {
+                  "image": {
+                    "url": "https://images.unsplash.com/photo-1519245659620-e859806a8d3b?auto=format&fit=crop&w=1100&q=82",
+                    "id": ""
+                  },
+                  "image_size": "full",
+                  "alt": "Lamborghini Huracan EVO"
+                },
+                "elements": []
+              },
+              {
+                "id": "0000010",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Lamborghini Huracan EVO",
+                  "header_size": "h2",
+                  "title_color": "#181818",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 24
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 22
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 20
+                  },
+                  "typography_font_weight": "500",
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.05
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000011",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>$289,000</p>",
+                  "text_color": "#da291c",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 19
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 18
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 17
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000012",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>2021 · 6,200 mi · 631 hp</p>",
+                  "text_color": "#5d5954",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 13
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000013",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "button",
+                "settings": {
+                  "text": "Inquire",
+                  "link": {
+                    "url": "/contact/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "size": "lg",
+                  "background_color": "#da291c",
+                  "button_text_color": "#fffffb",
+                  "width_mobile": {
+                    "unit": "%",
+                    "size": 100
+                  }
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "000001e",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "48",
+          "bottom": "24",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "20",
+          "right": "32",
+          "bottom": "20",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "16",
+          "right": "16",
+          "bottom": "16",
+          "left": "16",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": {
+        "id": "000001c",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_gap": {
+            "column": "24",
+            "row": "24",
+            "isLinked": true,
+            "unit": "px",
+            "size": 24
+          },
+          "flex_wrap": "wrap",
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "width": {
+            "unit": "%",
+            "size": 100
+          },
+          "flex_direction_mobile": "column"
+        },
+        "elements": [
+          {
+            "id": "000001d",
+            "elType": "container",
+            "isInner": true,
+            "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_gap": {
+                "column": "18",
+                "row": "18",
+                "isLinked": true,
+                "unit": "px",
+                "size": 18
+              },
+              "flex_wrap": "",
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "width": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_tablet": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_mobile": {
+                "unit": "%",
+                "size": 100
+              }
+            },
+            "elements": [
+              {
+                "id": "0000017",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "image",
+                "settings": {
+                  "image": {
+                    "url": "https://images.unsplash.com/photo-1621135802920-133df287f89c?auto=format&fit=crop&w=1100&q=82",
+                    "id": ""
+                  },
+                  "image_size": "full",
+                  "alt": "McLaren 720S Performance"
+                },
+                "elements": []
+              },
+              {
+                "id": "0000018",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "heading",
+                "settings": {
+                  "title": "McLaren 720S Performance",
+                  "header_size": "h2",
+                  "title_color": "#181818",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 24
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 22
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 20
+                  },
+                  "typography_font_weight": "500",
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.05
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000019",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>$274,000</p>",
+                  "text_color": "#da291c",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 19
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 18
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 17
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "000001a",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>2020 · 8,100 mi · 710 hp</p>",
+                  "text_color": "#5d5954",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 13
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "000001b",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "button",
+                "settings": {
+                  "text": "Inquire",
+                  "link": {
+                    "url": "/contact/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "size": "lg",
+                  "background_color": "#da291c",
+                  "button_text_color": "#fffffb",
+                  "width_mobile": {
+                    "unit": "%",
+                    "size": 100
+                  }
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "0000026",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "48",
+          "bottom": "24",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "20",
+          "right": "32",
+          "bottom": "20",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "16",
+          "right": "16",
+          "bottom": "16",
+          "left": "16",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": {
+        "id": "0000024",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_gap": {
+            "column": "24",
+            "row": "24",
+            "isLinked": true,
+            "unit": "px",
+            "size": 24
+          },
+          "flex_wrap": "wrap",
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "width": {
+            "unit": "%",
+            "size": 100
+          },
+          "flex_direction_mobile": "column"
+        },
+        "elements": [
+          {
+            "id": "0000025",
+            "elType": "container",
+            "isInner": true,
+            "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_gap": {
+                "column": "18",
+                "row": "18",
+                "isLinked": true,
+                "unit": "px",
+                "size": 18
+              },
+              "flex_wrap": "",
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "width": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_tablet": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_mobile": {
+                "unit": "%",
+                "size": 100
+              }
+            },
+            "elements": [
+              {
+                "id": "000001f",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "image",
+                "settings": {
+                  "image": {
+                    "url": "https://images.unsplash.com/photo-1611859266238-4b98091d9d9b?auto=format&fit=crop&w=1100&q=82",
+                    "id": ""
+                  },
+                  "image_size": "full",
+                  "alt": "Porsche 911 GT3 RS"
+                },
+                "elements": []
+              },
+              {
+                "id": "0000020",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Porsche 911 GT3 RS",
+                  "header_size": "h2",
+                  "title_color": "#181818",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 24
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 22
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 20
+                  },
+                  "typography_font_weight": "500",
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.05
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000021",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>$246,000</p>",
+                  "text_color": "#da291c",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 19
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 18
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 17
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000022",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>2024 · 900 mi · 518 hp</p>",
+                  "text_color": "#5d5954",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 13
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000023",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "button",
+                "settings": {
+                  "text": "Inquire",
+                  "link": {
+                    "url": "/contact/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "size": "lg",
+                  "background_color": "#da291c",
+                  "button_text_color": "#fffffb",
+                  "width_mobile": {
+                    "unit": "%",
+                    "size": 100
+                  }
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "000002e",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "48",
+          "bottom": "24",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "20",
+          "right": "32",
+          "bottom": "20",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "16",
+          "right": "16",
+          "bottom": "16",
+          "left": "16",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": {
+        "id": "000002c",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_gap": {
+            "column": "24",
+            "row": "24",
+            "isLinked": true,
+            "unit": "px",
+            "size": 24
+          },
+          "flex_wrap": "wrap",
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "width": {
+            "unit": "%",
+            "size": 100
+          },
+          "flex_direction_mobile": "column"
+        },
+        "elements": [
+          {
+            "id": "000002d",
+            "elType": "container",
+            "isInner": true,
+            "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_gap": {
+                "column": "18",
+                "row": "18",
+                "isLinked": true,
+                "unit": "px",
+                "size": 18
+              },
+              "flex_wrap": "",
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "width": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_tablet": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_mobile": {
+                "unit": "%",
+                "size": 100
+              }
+            },
+            "elements": [
+              {
+                "id": "0000027",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "image",
+                "settings": {
+                  "image": {
+                    "url": "https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?auto=format&fit=crop&w=1100&q=82",
+                    "id": ""
+                  },
+                  "image_size": "full",
+                  "alt": "Ferrari 296 GTB"
+                },
+                "elements": []
+              },
+              {
+                "id": "0000028",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Ferrari 296 GTB",
+                  "header_size": "h2",
+                  "title_color": "#181818",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 24
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 22
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 20
+                  },
+                  "typography_font_weight": "500",
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.05
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000029",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>$412,000</p>",
+                  "text_color": "#da291c",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 19
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 18
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 17
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "000002a",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>2024 · 1,300 mi · 819 hp</p>",
+                  "text_color": "#5d5954",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 13
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "000002b",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "button",
+                "settings": {
+                  "text": "Inquire",
+                  "link": {
+                    "url": "/contact/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "size": "lg",
+                  "background_color": "#da291c",
+                  "button_text_color": "#fffffb",
+                  "width_mobile": {
+                    "unit": "%",
+                    "size": 100
+                  }
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "0000036",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "48",
+          "bottom": "24",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "20",
+          "right": "32",
+          "bottom": "20",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "16",
+          "right": "16",
+          "bottom": "16",
+          "left": "16",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": {
+        "id": "0000034",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_gap": {
+            "column": "24",
+            "row": "24",
+            "isLinked": true,
+            "unit": "px",
+            "size": 24
+          },
+          "flex_wrap": "wrap",
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "width": {
+            "unit": "%",
+            "size": 100
+          },
+          "flex_direction_mobile": "column"
+        },
+        "elements": [
+          {
+            "id": "0000035",
+            "elType": "container",
+            "isInner": true,
+            "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_gap": {
+                "column": "18",
+                "row": "18",
+                "isLinked": true,
+                "unit": "px",
+                "size": 18
+              },
+              "flex_wrap": "",
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "width": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_tablet": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_mobile": {
+                "unit": "%",
+                "size": 100
+              }
+            },
+            "elements": [
+              {
+                "id": "000002f",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "image",
+                "settings": {
+                  "image": {
+                    "url": "https://images.unsplash.com/photo-1606220838315-056192d5e927?auto=format&fit=crop&w=1100&q=82",
+                    "id": ""
+                  },
+                  "image_size": "full",
+                  "alt": "Aston Martin DBS Superleggera"
+                },
+                "elements": []
+              },
+              {
+                "id": "0000030",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Aston Martin DBS Superleggera",
+                  "header_size": "h2",
+                  "title_color": "#181818",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 24
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 22
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 20
+                  },
+                  "typography_font_weight": "500",
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.05
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000031",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>$232,000</p>",
+                  "text_color": "#da291c",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 19
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 18
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 17
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000032",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>2022 · 7,400 mi · 715 hp</p>",
+                  "text_color": "#5d5954",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 13
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000033",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "button",
+                "settings": {
+                  "text": "Inquire",
+                  "link": {
+                    "url": "/contact/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "size": "lg",
+                  "background_color": "#da291c",
+                  "button_text_color": "#fffffb",
+                  "width_mobile": {
+                    "unit": "%",
+                    "size": 100
+                  }
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "000003e",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "48",
+          "bottom": "24",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "20",
+          "right": "32",
+          "bottom": "20",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "16",
+          "right": "16",
+          "bottom": "16",
+          "left": "16",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": {
+        "id": "000003c",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_gap": {
+            "column": "24",
+            "row": "24",
+            "isLinked": true,
+            "unit": "px",
+            "size": 24
+          },
+          "flex_wrap": "wrap",
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "width": {
+            "unit": "%",
+            "size": 100
+          },
+          "flex_direction_mobile": "column"
+        },
+        "elements": [
+          {
+            "id": "000003d",
+            "elType": "container",
+            "isInner": true,
+            "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_gap": {
+                "column": "18",
+                "row": "18",
+                "isLinked": true,
+                "unit": "px",
+                "size": 18
+              },
+              "flex_wrap": "",
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "width": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_tablet": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_mobile": {
+                "unit": "%",
+                "size": 100
+              }
+            },
+            "elements": [
+              {
+                "id": "0000037",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "image",
+                "settings": {
+                  "image": {
+                    "url": "https://images.unsplash.com/photo-1600712242805-5f78671b24da?auto=format&fit=crop&w=1100&q=82",
+                    "id": ""
+                  },
+                  "image_size": "full",
+                  "alt": "Lamborghini Urus Performante"
+                },
+                "elements": []
+              },
+              {
+                "id": "0000038",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Lamborghini Urus Performante",
+                  "header_size": "h2",
+                  "title_color": "#181818",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 24
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 22
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 20
+                  },
+                  "typography_font_weight": "500",
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.05
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000039",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>$318,000</p>",
+                  "text_color": "#da291c",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 19
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 18
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 17
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "000003a",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>2023 · 3,800 mi · 657 hp</p>",
+                  "text_color": "#5d5954",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 13
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "000003b",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "button",
+                "settings": {
+                  "text": "Inquire",
+                  "link": {
+                    "url": "/contact/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "size": "lg",
+                  "background_color": "#da291c",
+                  "button_text_color": "#fffffb",
+                  "width_mobile": {
+                    "unit": "%",
+                    "size": 100
+                  }
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "0000046",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "flex_direction": "column",
+        "flex_gap": {
+          "column": "24",
+          "row": "24",
+          "isLinked": true,
+          "unit": "px",
+          "size": 24
+        },
+        "flex_wrap": "",
+        "padding": {
+          "unit": "px",
+          "top": "24",
+          "right": "48",
+          "bottom": "24",
+          "left": "48",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "20",
+          "right": "32",
+          "bottom": "20",
+          "left": "32",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "16",
+          "right": "16",
+          "bottom": "16",
+          "left": "16",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#fffffb"
+      },
+      "elements": {
+        "id": "0000044",
+        "elType": "container",
+        "isInner": true,
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_gap": {
+            "column": "24",
+            "row": "24",
+            "isLinked": true,
+            "unit": "px",
+            "size": 24
+          },
+          "flex_wrap": "wrap",
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "width": {
+            "unit": "%",
+            "size": 100
+          },
+          "flex_direction_mobile": "column"
+        },
+        "elements": [
+          {
+            "id": "0000045",
+            "elType": "container",
+            "isInner": true,
+            "settings": {
+              "content_width": "full",
+              "flex_direction": "column",
+              "flex_gap": {
+                "column": "18",
+                "row": "18",
+                "isLinked": true,
+                "unit": "px",
+                "size": 18
+              },
+              "flex_wrap": "",
+              "padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "0",
+                "isLinked": true
+              },
+              "width": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_tablet": {
+                "unit": "%",
+                "size": 25
+              },
+              "width_mobile": {
+                "unit": "%",
+                "size": 100
+              }
+            },
+            "elements": [
+              {
+                "id": "000003f",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "image",
+                "settings": {
+                  "image": {
+                    "url": "https://images.unsplash.com/photo-1603386329225-868f9b1ee6c9?auto=format&fit=crop&w=1100&q=82",
+                    "id": ""
+                  },
+                  "image_size": "full",
+                  "alt": "Bentley Continental GT Speed"
+                },
+                "elements": []
+              },
+              {
+                "id": "0000040",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "heading",
+                "settings": {
+                  "title": "Bentley Continental GT Speed",
+                  "header_size": "h2",
+                  "title_color": "#181818",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 24
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 22
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 20
+                  },
+                  "typography_font_weight": "500",
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.05
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000041",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>$219,000</p>",
+                  "text_color": "#da291c",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 19
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 18
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 17
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000042",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "text-editor",
+                "settings": {
+                  "editor": "<p>2022 · 9,600 mi · 650 hp</p>",
+                  "text_color": "#5d5954",
+                  "typography_typography": "custom",
+                  "typography_font_family": "Manrope",
+                  "typography_font_size": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_tablet": {
+                    "unit": "px",
+                    "size": 14
+                  },
+                  "typography_font_size_mobile": {
+                    "unit": "px",
+                    "size": 13
+                  },
+                  "typography_line_height": {
+                    "unit": "em",
+                    "size": 1.55
+                  }
+                },
+                "elements": []
+              },
+              {
+                "id": "0000043",
+                "elType": "widget",
+                "isInner": false,
+                "widgetType": "button",
+                "settings": {
+                  "text": "Inquire",
+                  "link": {
+                    "url": "/contact/",
+                    "is_external": "",
+                    "nofollow": "",
+                    "custom_attributes": ""
+                  },
+                  "size": "lg",
+                  "background_color": "#da291c",
+                  "button_text_color": "#fffffb",
+                  "width_mobile": {
+                    "unit": "%",
+                    "size": 100
+                  }
+                },
+                "elements": []
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
