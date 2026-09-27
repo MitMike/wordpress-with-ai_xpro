@@ -1,0 +1,12 @@
+{
+  "menu_name": "Flash Cars Main Menu",
+  "location": "primary",
+  "items": [
+    {"title":"Home","slug":"/"},
+    {"title":"About","slug":"/about/"},
+    {"title":"Inventory","slug":"/inventory/"},
+    {"title":"Sell Your Car","slug":"/sell-your-car/"},
+    {"title":"Contact","slug":"/contact/"}
+  ],
+  "homepage_slug": "/"
+}
