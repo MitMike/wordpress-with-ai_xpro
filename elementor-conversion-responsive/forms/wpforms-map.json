@@ -1,0 +1,8 @@
+{
+  "forms": [
+    {"key":"home-search","purpose":"Inventory search lead","suggested_name":"Flash Cars — Search","fields":["make","budget","name","email"],"required":["name","email"]},
+    {"key":"sell-valuation","purpose":"Vehicle valuation inquiry","suggested_name":"Flash Cars — Sell Your Car","fields":["name","email","make","model","year","mileage","message"],"required":["name","email","make","model"]},
+    {"key":"contact","purpose":"General dealership inquiry","suggested_name":"Flash Cars — Contact","fields":["name","email","phone","topic","message"],"required":["name","email","message"]}
+  ],
+  "integration":"Replace form placeholders in page JSON with the generated WPForms IDs after import."
+}
